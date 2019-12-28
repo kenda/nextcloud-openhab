@@ -1,0 +1,16 @@
+{
+    "name": "nextcloud/openhab",
+    "description": "Renders sitemaps of an Openhab instance.",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Marcus Nitzschke",
+            "email": "mail@kendix.org"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}

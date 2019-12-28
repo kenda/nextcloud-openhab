@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>openhab</id>
+    <name>Openhab Viewer</name>
+    <summary>Renders sitemaps of an Openhab instance.</summary>
+    <description>This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud.</description>
+    <version>0.9.0</version>
+    <licence>agpl</licence>
+    <author>Marcus Nitzschke</author>
+    <category>integration</category>
+    <dependencies>
+        <nextcloud min-version="12" max-version="18"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Openhab</name>
+            <route>openhab.page.index</route>
+        </navigation>
+    </navigations>
+	<settings>
+        <admin>OCA\Openhab\Settings\AdminSettings</admin>
+	</settings>
+</info>
