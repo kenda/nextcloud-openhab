@@ -2,6 +2,8 @@
 
 This app renders [sitemaps](https://www.openhab.org/docs/configuration/sitemaps.html) of an [Openhab](https://www.openhab.org/) instance.
 
+![](https://github.com/kenda/nextcloud-openhab/raw/master/screenshots/overview.png)
+
 ## Supported element types
 
 - Frame
