@@ -33,12 +33,15 @@ import {
 
 import axios from '@nextcloud/axios'
 
+import Widget from './Widget'
+
 export default {
 	name: 'App',
 	components: {
 		AppContent,
 		AppNavigation,
 		AppNavigationItem,
+		Widget,
 	},
 	data: function() {
 		return {
@@ -66,9 +69,6 @@ export default {
 			OCP.Toast.error(t('openhab', 'Could not fetch sitemaps'))
 		}
 		this.loading = false
-	},
-	beforeCreate: function() {
-		this.$options.components.Widget = require('./Widget.vue').default
 	},
 	beforeDestroy() {
 		clearInterval(this.request)

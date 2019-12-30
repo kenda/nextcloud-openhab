@@ -7,6 +7,7 @@ This app renders [sitemaps](https://www.openhab.org/docs/configuration/sitemaps.
 ## Supported element types
 
 - Frame
+- Group
 - Text
 - Switch
   - Currently read-only
@@ -14,7 +15,6 @@ This app renders [sitemaps](https://www.openhab.org/docs/configuration/sitemaps.
 ## Not yet supported element types
 
 - Default
-- Group
 - Selection
 - Setpoint
 - Slider

@@ -1,6 +1,8 @@
 <template>
 	<div class="frame">
-		<h2>{{ config.label }}</h2>
+		<h2 v-if="config.label">
+			{{ config.label }}
+		</h2>
 		<Widget v-for="widget in config.widgets" :key="widget.widgetid" :config="widget" />
 	</div>
 </template>
