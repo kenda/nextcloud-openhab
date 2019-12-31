@@ -11,6 +11,8 @@ This app renders [sitemaps](https://www.openhab.org/docs/configuration/sitemaps.
 - Text
 - Switch
   - Currently read-only
+- Chart
+  - Currently only supporting single items as source
 
 ## Not yet supported element types
 
@@ -23,7 +25,6 @@ This app renders [sitemaps](https://www.openhab.org/docs/configuration/sitemaps.
 - Mapview
 - Image
 - Video
-- Chart
 
 ## License
 

@@ -1,7 +1,8 @@
 <?php
 return [
 	'resources' => [
-        'sitemap' => ['url' => '/sitemaps']
+		'sitemap' => ['url' => '/sitemaps'],
+		'persistence' => ['url' => '/persistence']
     ],
     'routes' => [
 	   ['name' => 'page#index', 'url' => '/', 'verb' => 'GET']

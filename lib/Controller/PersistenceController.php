@@ -7,7 +7,7 @@ use OCP\AppFramework\Controller;
 use OCP\IConfig;
 use \OCP\ILogger;
 
-class SitemapController extends Controller {
+class PersistenceController extends Controller {
 
 	private $server;
 
@@ -27,20 +27,13 @@ class SitemapController extends Controller {
 		];
     }
 
-    /**
-     * @NoAdminRequired
-     */
-    public function index() {
-		return $this->sendRequest($this->server['url'] . '/rest/sitemaps');
-    }
-
      /**
       * @NoAdminRequired
       *
       * @param string $id
       */
      public function show(string $id) {
-		 return $this->sendRequest($this->server['url'] . '/rest/sitemaps/' . $id);
+		 return $this->sendRequest($this->server['url'] . '/rest/persistence/items/' . $id);
      }
 
 	private function sendRequest(string $url) {

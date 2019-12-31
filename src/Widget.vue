@@ -4,18 +4,19 @@
 			<FrameWidget v-if="config.type === 'Frame'" :config="config" />
 			<TextWidget v-if="config.type === 'Text'" :config="config" class="entry-wrapper" />
 			<SwitchWidget v-if="config.type === 'Switch'" :config="config" class="entry-wrapper" />
+			<ChartWidget v-if="config.type === 'Chart'" :config="config" class="entry-wrapper" />
 			<!--<GroupWidget v-if="config.type === 'Group'" :config="config" class="entry-wrapper" />-->
 		</div>
 		<div v-if="config.linkedPage" class="entry-wrapper group-wrapper">
-			<div @click="expand = !expand" class="group-header">
+			<div class="group-header" @click="expand = !expand">
 				<i v-if="config.linkedPage.widgets.length"
 					class="toggle-icon"
 					:class="{ 'icon-triangle-e': expand === false, 'icon-triangle-s': expand === true }" />
 				<TextWidget v-if="config.type === 'Text'" :config="config" />
-				<SwitchWidget v-if="config.type === 'Switch'" :config="config" />
+				<SwitchWidget v-else-if="config.type === 'Switch'" :config="config" />
 				<span v-else>{{ config.label }}</span>
 			</div>
-			<div v-show="expand" v-if="config.linkedPage.widgets.length">
+			<div v-if="expand && config.linkedPage.widgets.length">
 				<Widget v-for="widget in config.linkedPage.widgets" :key="widget.widgetid" :config="widget" />
 			</div>
 		</div>
@@ -23,16 +24,16 @@
 </template>
 
 <script>
+import ChartWidget from './ChartWidget'
 import FrameWidget from './FrameWidget'
-import GroupWidget from './GroupWidget'
 import SwitchWidget from './SwitchWidget'
 import TextWidget from './TextWidget'
 
 export default {
 	name: 'Widget',
 	components: {
+		ChartWidget,
 		FrameWidget,
-		GroupWidget,
 		SwitchWidget,
 		TextWidget,
 	},
