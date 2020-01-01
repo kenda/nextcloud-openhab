@@ -9,10 +9,10 @@ This app renders [sitemaps](https://www.openhab.org/docs/configuration/sitemaps.
 - Frame
 - Group
 - Text
-- Switch
-  - Currently read-only
+- Switch (read-only)
 - Chart
   - Currently only supporting single items as source
+- Colorpicker (read-only)
 
 ## Not yet supported element types
 
@@ -20,7 +20,6 @@ This app renders [sitemaps](https://www.openhab.org/docs/configuration/sitemaps.
 - Selection
 - Setpoint
 - Slider
-- Colorpicker
 - Webview
 - Mapview
 - Image

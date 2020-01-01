@@ -5,6 +5,7 @@
 			<TextWidget v-if="config.type === 'Text'" :config="config" class="entry-wrapper" />
 			<SwitchWidget v-if="config.type === 'Switch'" :config="config" class="entry-wrapper" />
 			<ChartWidget v-if="config.type === 'Chart'" :config="config" class="entry-wrapper" />
+			<ColorpickerWidget v-if="config.type === 'Colorpicker'" :config="config" class="entry-wrapper" />
 			<!--<GroupWidget v-if="config.type === 'Group'" :config="config" class="entry-wrapper" />-->
 		</div>
 		<div v-if="config.linkedPage" class="entry-wrapper group-wrapper">
@@ -25,6 +26,7 @@
 
 <script>
 import ChartWidget from './ChartWidget'
+import ColorpickerWidget from './ColorpickerWidget'
 import FrameWidget from './FrameWidget'
 import SwitchWidget from './SwitchWidget'
 import TextWidget from './TextWidget'
@@ -33,6 +35,7 @@ export default {
 	name: 'Widget',
 	components: {
 		ChartWidget,
+		ColorpickerWidget,
 		FrameWidget,
 		SwitchWidget,
 		TextWidget,
@@ -70,8 +73,13 @@ export default {
 	flex: 1;
 	justify-content: space-between;
 }
-
+.entry .label {
+	display: flex;
+	align-items: center;
+}
 .entry .value {
+	display: flex;
+	align-items: center;
 	font-weight: bold;
 	margin-left: 30px;
 }
