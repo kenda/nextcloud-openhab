@@ -91,7 +91,7 @@ export default {
 
 			this.request = setInterval(fetchData, 300000) // 5 minutes
 			fetchData()
-		}
+		},
 	},
 }
 </script>
