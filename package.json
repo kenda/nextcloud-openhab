@@ -1,6 +1,6 @@
 {
 	"name": "openhab",
-	"version": "0.9.2",
+	"version": "0.9.3",
 	"author": "Marcus Nitzschke <mail@kendix.org",
 	"license": "agpl",
 	"private": true,
