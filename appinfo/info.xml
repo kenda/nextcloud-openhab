@@ -13,7 +13,7 @@
 	<repository>https://github.com/kenda/nextcloud-openhab</repository>
     <screenshot>https://raw.githubusercontent.com/kenda/nextcloud-openhab/master/screenshots/overview.png</screenshot>
     <dependencies>
-        <nextcloud min-version="12" max-version="19"/>
+        <nextcloud min-version="12" max-version="20"/>
     </dependencies>
     <navigations>
         <navigation>
