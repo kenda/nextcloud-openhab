@@ -5,7 +5,7 @@
     <name>Openhab Viewer</name>
     <summary>Renders sitemaps of an Openhab instance.</summary>
     <description>This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud.</description>
-    <version>0.9.3</version>
+    <version>0.9.4</version>
     <licence>agpl</licence>
     <author>Marcus Nitzschke</author>
     <category>integration</category>
