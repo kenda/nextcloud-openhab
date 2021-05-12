@@ -15,7 +15,7 @@
 	},
 	"dependencies": {
 		"@nextcloud/axios": "^1.1.0",
-		"chart.js": "^2.9.3",
+		"chart.js": "^2.9.4",
 		"nextcloud-router": "0.0.9",
 		"nextcloud-server": "^0.15.10",
 		"nextcloud-vue": "^0.12.8",
