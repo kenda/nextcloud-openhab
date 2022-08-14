@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          path: ${{ env.REPO_NAME }}
+          path: ${{ env.APP_NAME }}
       - name: Run build
         run: cd ${{ env.REPO_NAME }} && make appstore
       - name: Upload app tarball to release
