@@ -5,15 +5,16 @@
 				<AppNavigationItem
 					v-for="sitemap in sitemaps"
 					:key="sitemap.name"
-					:item="navEntry(sitemap)" />
+					:title="sitemap.label"
+					@click="open(sitemap.name)" />
 			</ul>
 		</AppNavigation>
-		<AppContent>
+		<AppContent id="app-content">
 			<div v-if="currentSitemap">
 				<Widget v-for="widget in currentSitemap.homepage.widgets" :key="widget.widgetid" :config="widget" />
 			</div>
 			<div v-else id="emptycontent">
-				<h2 v-if="sitemaps.length">
+				<h2 v-if="sitemaps && sitemaps.length">
 					Select a sitemap
 				</h2>
 				<h2 v-if="!sitemaps || !sitemaps.length">
@@ -29,7 +30,7 @@ import {
 	AppContent,
 	AppNavigation,
 	AppNavigationItem,
-} from 'nextcloud-vue'
+} from '@nextcloud/vue'
 
 import axios from '@nextcloud/axios'
 
@@ -49,16 +50,6 @@ export default {
 			request: null,
 			sitemaps: [],
 		}
-	},
-	computed: {
-		navEntry() {
-			return (sitemap) => {
-				return {
-					text: sitemap.label,
-					action: () => this.open(sitemap.name),
-				}
-			}
-		},
 	},
 	async mounted() {
 		if (this.$route.params.sitemap) {

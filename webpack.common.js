@@ -1,6 +1,5 @@
 const path = require('path')
 const { VueLoaderPlugin } = require('vue-loader')
-const StyleLintPlugin = require('stylelint-webpack-plugin')
 
 module.exports = {
 	entry: {
@@ -48,7 +47,6 @@ module.exports = {
 	},
 	plugins: [
 		new VueLoaderPlugin(),
-		new StyleLintPlugin(),
 	],
 	resolve: {
 		extensions: ['*', '.js', '.vue', '.json']
