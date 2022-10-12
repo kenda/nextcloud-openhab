@@ -15,10 +15,10 @@
 			</div>
 			<div v-else id="emptycontent">
 				<h2 v-if="sitemaps && sitemaps.length">
-					Select a sitemap
+					{{t('openhab', 'Select a sitemap')}}
 				</h2>
 				<h2 v-if="!sitemaps || !sitemaps.length">
-					No sitemaps found. Check your config or create a sitemap.
+					{{t('openhab', 'No sitemaps found. Check your config or create a sitemap.')}}
 				</h2>
 			</div>
 		</AppContent>
