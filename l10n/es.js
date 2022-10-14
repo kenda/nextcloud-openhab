@@ -1,0 +1,7 @@
+OC.L10N.register(
+    "openhab",
+    {
+    "Failed to load settings" : "Fallo al cargar configuraciones",
+    "Failed to save settings" : "Fallo al guardar configuraciones"
+},
+"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

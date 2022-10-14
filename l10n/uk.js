@@ -1,6 +1,14 @@
 OC.L10N.register(
     "openhab",
     {
+    "Openhab Viewer" : "Переглядач Openhab",
+    "Openhab" : "Openhab",
+    "Renders sitemaps of an Openhab instance." : "Відтворює карти сайту екземпляра Openhab.",
+    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Ця програма відтворює доступні карти сайту екземпляра сервера Openhab. Це дозволяє відображати значення з вашого розумного будинку в Nextcloud.",
+    "Select a sitemap" : "Виберіть карту сайту",
+    "No sitemaps found. Check your config or create a sitemap." : "Карти сайту не знайдено. Перевірте свою конфігурацію або створіть карту сайту.",
+    "Could not fetch sitemaps" : "Не вдалося отримати карти сайту",
+    "Failed to load settings" : "Не вдалося завантажити налаштування",
     "Failed to save settings" : "Неможливо зберегти налаштування"
 },
 "nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);");
