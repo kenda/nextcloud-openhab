@@ -1,6 +1,9 @@
 OC.L10N.register(
     "openhab",
     {
+    "Openhab Viewer" : "ОпенХаб прегледач",
+    "Openhab" : "ОпенХаб",
+    "Renders sitemaps of an Openhab instance." : "Исцртава мапу ОпенХаб инстанце",
     "Failed to load settings" : "Грешка у дохватању поставки",
     "Failed to save settings" : "Грешка приликом чувања поставки"
 },
