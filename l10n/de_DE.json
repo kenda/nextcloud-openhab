@@ -2,7 +2,7 @@
     "Openhab Viewer" : "Openhab-Betrachter",
     "Openhab" : "Openhab",
     "Renders sitemaps of an Openhab instance." : "Rendert Sitemaps einer Openhab-Instanz.",
-    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Diese App rendert die verfügbaren Sitemaps einer Openhab-Serverinstanz. Damit können Sie sich Werte aus Ihrem Smart Home in Nextcloud anzeigen lassen.",
+    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Diese App rendert die verfügbaren Sitemaps einer OpenHab-Serverinstanz. Damit können Sie sich Werte aus Ihrem Smart Home in Nextcloud anzeigen lassen.",
     "Select a sitemap" : "Eine Sitemap auswählen",
     "No sitemaps found. Check your config or create a sitemap." : "Keine Sitemaps gefunden. Überprüfen Sie Ihre Konfiguration oder erstellen Sie eine Sitemap.",
     "Could not fetch sitemaps" : "Sitemaps konnten nicht abgerufen werden",
