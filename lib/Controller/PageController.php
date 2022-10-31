@@ -5,14 +5,15 @@ use OCP\IRequest;
 use OCP\AppFramework\Http\TemplateResponse;
 use OCP\AppFramework\Http\DataResponse;
 use OCP\AppFramework\Controller;
+use OCP\Util;
 
 class PageController extends Controller {
 	private $userId;
 	private $logger;
 
-	public function __construct($AppName,
+	public function __construct($appName,
 								IRequest $request){
-		parent::__construct($AppName, $request);
+		parent::__construct($appName, $request);
 	}
 
 	/**
@@ -26,6 +27,7 @@ class PageController extends Controller {
 	 * @NoCSRFRequired
 	 */
 	public function index() {
-		return new TemplateResponse('openhab', 'main');
+		Util::addScript($this->appName, 'openhab-main');
+		return new TemplateResponse($this->appName, 'main');
 	}
 }

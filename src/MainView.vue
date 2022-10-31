@@ -1,15 +1,15 @@
 <template>
-	<div id="content">
-		<AppNavigation>
+	<NcContent app-name="openhab">
+		<NcAppNavigation>
 			<ul>
-				<AppNavigationItem
+				<NcAppNavigationItem
 					v-for="sitemap in sitemaps"
 					:key="sitemap.name"
 					:title="sitemap.label"
 					@click="open(sitemap.name)" />
 			</ul>
-		</AppNavigation>
-		<AppContent id="app-content">
+		</NcAppNavigation>
+		<NcAppContent id="app-content">
 			<div v-if="currentSitemap">
 				<Widget v-for="widget in currentSitemap.homepage.widgets" :key="widget.widgetid" :config="widget" />
 			</div>
@@ -21,15 +21,16 @@
 					{{t('openhab', 'No sitemaps found. Check your config or create a sitemap.')}}
 				</h2>
 			</div>
-		</AppContent>
-	</div>
+		</NcAppContent>
+	</NcContent>
 </template>
 
 <script>
 import {
-	AppContent,
-	AppNavigation,
-	AppNavigationItem,
+	NcAppContent,
+	NcAppNavigation,
+	NcAppNavigationItem,
+	NcContent,
 } from '@nextcloud/vue'
 
 import axios from '@nextcloud/axios'
@@ -39,9 +40,10 @@ import Widget from './Widget'
 export default {
 	name: 'MainView',
 	components: {
-		AppContent,
-		AppNavigation,
-		AppNavigationItem,
+		NcAppContent,
+		NcAppNavigation,
+		NcAppNavigationItem,
+		NcContent,
 		Widget,
 	},
 	data: function() {
@@ -90,6 +92,7 @@ export default {
 	#app-content > div {
 		width: 100%;
 		padding: 5px;
+		padding-left: 48px;
 		display: flex;
 		flex-grow: 1;
 		flex-wrap: wrap;
