@@ -1,20 +1,26 @@
 <template>
 	<div id="openhab" class="section">
-		<figure v-if="loading" class="icon-loading loading" />
-		<figure v-if="!loading && success" class="icon-checkmark success" />
-		<h2>Openhab Viewer</h2>
+		<h2 class="d-flex">
+			Openhab Viewer&nbsp;
+			<figure v-if="loading" class="icon-loading loading" />
+			<figure v-if="!loading && success" class="icon-checkmark success" />
+		</h2>
 
-		<label>Server URL
-			<input v-model="settings['server.url']"
-				type="text"
-				@input="onChange">
-		</label>
+		<fieldset>
+			<label class="d-flex">{{t('openhab', 'Server URL')}}&nbsp;
+				<input v-model="settings['server.url']"
+					type="text"
+					@input="onChange">
+			</label>
+		</fieldset>
 
-		<label>Ignore SSL issues?
-			<input v-model="settings['server.ignoreSSL']"
-				type="checkbox"
-				@input="onChange">
-		</label>
+		<fieldset>
+			<label class="d-flex">{{t('openhab', 'Ignore SSL issues?')}}&nbsp;
+				<input v-model="settings['server.ignoreSSL']"
+					type="checkbox"
+					@input="onChange">
+			</label>
+		</fieldset>
 	</div>
 </template>
 
@@ -108,3 +114,13 @@ export default {
 	},
 }
 </script>
+<style scoped>
+	.d-flex {
+		display: flex;
+		align-items: center;
+	}
+
+	input[type='text'] {
+		width: 250px;
+	}
+</style>
