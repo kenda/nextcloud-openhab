@@ -4,6 +4,7 @@ OC.L10N.register(
     "Select a sitemap" : "选择一个网站地图",
     "No sitemaps found. Check your config or create a sitemap." : "找不到网站地图。请检查你的配置或创建一个网站地图。",
     "Could not fetch sitemaps" : "无法获取网站地图",
+    "Server URL" : "服务器 URL",
     "Failed to load settings" : "加载设置失败",
     "Failed to save settings" : "保存设置失败"
 },

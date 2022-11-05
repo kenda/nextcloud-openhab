@@ -8,6 +8,7 @@ OC.L10N.register(
     "Select a sitemap" : "Eine Sitemap auswählen",
     "No sitemaps found. Check your config or create a sitemap." : "Keine Sitemaps gefunden. Überprüfe deine Konfiguration oder erstelle  eine Sitemap.",
     "Could not fetch sitemaps" : "Sitemaps konnten nicht abgerufen werden.",
+    "Server URL" : "Server-URL",
     "Failed to load settings" : "Einstellungen konnten nicht geladen werden",
     "Failed to save settings" : "Einstellungen konnten nicht gespeichert werden"
 },

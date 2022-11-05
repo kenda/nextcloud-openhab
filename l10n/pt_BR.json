@@ -6,6 +6,7 @@
     "Select a sitemap" : "Selecione um sitemap",
     "No sitemaps found. Check your config or create a sitemap." : "Nenhum sitemap encontrado. Verifique suas configurações ou crie um sitemap.",
     "Could not fetch sitemaps" : "Não foi possível recuperar sitemaps",
+    "Server URL" : "URL do servidor",
     "Failed to load settings" : "Erro ao carregar configurações",
     "Failed to save settings" : "Erro ao salvar configurações"
 },"pluralForm" :"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"

@@ -1,4 +1,5 @@
 { "translations": {
+    "Server URL" : "Server URL",
     "Failed to load settings" : "Kon instellingen niet laden",
     "Failed to save settings" : "Kon instellingen niet opslaan"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

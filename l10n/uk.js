@@ -8,6 +8,7 @@ OC.L10N.register(
     "Select a sitemap" : "Виберіть карту сайту",
     "No sitemaps found. Check your config or create a sitemap." : "Карти сайту не знайдено. Перевірте свою конфігурацію або створіть карту сайту.",
     "Could not fetch sitemaps" : "Не вдалося отримати карти сайту",
+    "Server URL" : "URL сервер",
     "Failed to load settings" : "Не вдалося завантажити налаштування",
     "Failed to save settings" : "Неможливо зберегти налаштування"
 },
