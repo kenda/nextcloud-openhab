@@ -9,6 +9,7 @@ OC.L10N.register(
     "No sitemaps found. Check your config or create a sitemap." : "Herhangi bir site haritası bulunamadı. Yapılandırmanızı denetleyin ya da bir site haritası oluşturun.",
     "Could not fetch sitemaps" : "Site haritaları alınamadı",
     "Server URL" : "Sunucu adresi",
+    "Ignore SSL issues?" : "SSL sorunları yok sayılsın",
     "Failed to load settings" : "Ayarlar yüklenemedi",
     "Failed to save settings" : "Ayarlar kaydedilemedi"
 },

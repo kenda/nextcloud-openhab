@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Server URL" : "URL διακομιστή",
     "Failed to load settings" : "Αποτυχία φόρτωσης ρυθμίσεων",
     "Failed to save settings" : "Αποτυχία αποθήκευσης ρυθμίσεων"
 },

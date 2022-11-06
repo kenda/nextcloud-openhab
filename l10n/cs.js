@@ -8,6 +8,8 @@ OC.L10N.register(
     "Select a sitemap" : "Vyberte mapu lokality",
     "No sitemaps found. Check your config or create a sitemap." : "Nenalezeny žádné mapy lokalit. Zkontrolujte nastavení nebo takovou mapu vytvořte.",
     "Could not fetch sitemaps" : "Nedaří se získat mapy lokalit",
+    "Server URL" : "URL adresa serveru",
+    "Ignore SSL issues?" : "Ignorovat problémy s SSL?",
     "Failed to load settings" : "Nepodařilo se načíst nastavení",
     "Failed to save settings" : "Nastavení se nepodařilo uložit"
 },
