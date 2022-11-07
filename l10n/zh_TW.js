@@ -9,6 +9,7 @@ OC.L10N.register(
     "No sitemaps found. Check your config or create a sitemap." : "找不到站點地圖。請檢查您的設定或建立站點地圖。",
     "Could not fetch sitemaps" : "無法擷取站點地圖",
     "Server URL" : "伺服器 URL",
+    "Ignore SSL issues?" : "忽略 SSL 問題？",
     "Failed to load settings" : "設定載入失敗",
     "Failed to save settings" : "設定儲存失敗"
 },
