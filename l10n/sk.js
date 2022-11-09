@@ -9,6 +9,7 @@ OC.L10N.register(
     "No sitemaps found. Check your config or create a sitemap." : "Žiadna mapa stránok nebola nájdená. Skontrolujte vašu konfiguráciu alebo vytvorte mapu stránok.",
     "Could not fetch sitemaps" : "Nepodarilo sa získať mapy stránok",
     "Server URL" : "URL servera",
+    "Ignore SSL issues?" : "Ignorovať chyby SSL?",
     "Failed to load settings" : "Nepodarilo sa načítať nastavenia",
     "Failed to save settings" : "Nepodarilo sa uložiť nastavenia"
 },
