@@ -1,0 +1,80 @@
+<template>
+	<div id="dashboard-openhab">
+		<select @change="open">
+			<option>{{t('openhab', 'Select a sitemap')}}</option>
+			<option
+				v-for="sitemap in sitemaps"
+				:selected="currentSitemap.name === sitemap.name"
+				:value="sitemap.name">
+				{{sitemap.label}}
+			</option>
+		</select>
+		<div v-if="currentSitemap">
+			<Widget v-for="widget in currentSitemap.homepage.widgets" :key="widget.widgetid" :config="widget" />
+		</div>
+		<div v-else>
+			<p v-if="!sitemaps || !sitemaps.length">
+				{{t('openhab', 'No sitemaps found. Check your config or create a sitemap.')}}
+			</p>
+		</div>
+	</div>
+</template>
+
+<script>
+	import axios from '@nextcloud/axios'
+	import Widget from './Widget'
+	export default {
+		name: 'DashboardWidget',
+		components: {
+			Widget,
+		},
+		data: function() {
+			return {
+				currentSitemap: null,
+				request: null,
+				sitemaps: [],
+			}
+		},
+		async mounted() {
+			try {
+				const response = await axios.get(OC.generateUrl('/apps/openhab/sitemaps'))
+				this.sitemaps = response.data
+			} catch (e) {
+				console.error(e)
+				OCP.Toast.error(t('openhab', 'Could not fetch sitemaps'))
+			}
+
+			const lastSitemap = localStorage.getItem('ohv:dashboard:lastSitemap');
+			if (lastSitemap) {
+				this.load(lastSitemap);
+			}
+		},
+		methods: {
+			open(ev) {
+				const {value} = ev.target;
+				if (value) {
+					this.load(value);
+					localStorage.setItem('ohv:dashboard:lastSitemap', value);
+				}
+			},
+			load(sitemap) {
+				const fetchData = async() => {
+					const response = await axios.get(OC.generateUrl('/apps/openhab/sitemaps/' + sitemap))
+					this.currentSitemap = response.data
+				}
+
+				this.request = setInterval(fetchData, 300000) // 5 minutes
+				fetchData()
+			},
+		},
+	}
+</script>
+<style scoped>
+	#dashboard-openhab {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		overflow-y: auto;
+	}
+</style>
