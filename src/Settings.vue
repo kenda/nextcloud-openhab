@@ -7,7 +7,7 @@
 		</h2>
 
 		<fieldset>
-			<label class="d-flex">{{t('openhab', 'Server URL')}}&nbsp;
+			<label class="d-flex">{{t('openhab', 'Server URL')}}:&nbsp;
 				<input v-model="settings['server.url']"
 					type="text"
 					@input="onChange">
@@ -21,14 +21,27 @@
 					@input="onChange">
 			</label>
 		</fieldset>
+
+		<fieldset>
+			<label class="d-flex">{{t('openhab', 'Refresh interval')}}:&nbsp;
+				<input v-model="settings['server.interval']"
+					type="number"
+					@input="onChange">
+				{{t('openhab', 'seconds')}}
+			</label>
+		</fieldset>
 	</div>
 </template>
 
 <script>
+import { loadSettings } from './utils/settings';
+
 const SETTINGS = [
 	'server.url',
 	'server.ignoreSSL',
+	'server.interval',
 ]
+
 export default {
 	name: 'Settings',
 	data: function() {
@@ -49,12 +62,7 @@ export default {
 	},
 	async created() {
 		try {
-			for (const setting of SETTINGS) {
-				this.settings[setting] = await this.getValue(setting)
-				if (['true', 'false'].includes(this.settings[setting])) {
-					this.settings[setting] = (this.settings[setting] === 'true')
-				}
-			}
+			this.settings = await loadSettings(SETTINGS);
 		} catch (e) {
 			this.error = this.t('openhab', 'Failed to load settings')
 			throw e
@@ -88,26 +96,6 @@ export default {
 				)
 			} catch (e) {
 				this.error = this.t('openhab', 'Failed to save settings')
-				throw e
-			}
-		},
-		async getValue(setting) {
-			try {
-				const resDocument = await new Promise((resolve, reject) =>
-					OCP.AppConfig.getValue('openhab', setting, null, {
-						success: resolve,
-						error: reject,
-					})
-				)
-				if (resDocument.querySelector('status').textContent !== 'ok') {
-					this.error = this.t('openhab', 'Failed to load settings')
-					console.error('Failed request', resDocument)
-					return
-				}
-				const dataEl = resDocument.querySelector('data')
-				return dataEl.firstElementChild.textContent
-			} catch (e) {
-				this.error = this.t('openhab', 'Failed to load settings')
 				throw e
 			}
 		},

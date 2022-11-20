@@ -23,6 +23,12 @@
 <script>
 	import axios from '@nextcloud/axios'
 	import Widget from './Widget'
+	import { loadSettings } from './utils/settings';
+
+    const SETTINGS = [
+	    'server.interval',
+    ]
+
 	export default {
 		name: 'DashboardWidget',
 		components: {
@@ -30,6 +36,7 @@
 		},
 		data: function() {
 			return {
+				settings: SETTINGS.reduce((obj, key) => ({ ...obj, [key]: '' }), {}),
 				currentSitemap: null,
 				request: null,
 				sitemaps: [],
@@ -49,6 +56,17 @@
 				this.load(lastSitemap);
 			}
 		},
+		async created() {
+		    try {
+			    this.settings = await loadSettings(SETTINGS);
+    		} catch (e) {
+    			OCP.Toast.error(t('openhab', 'Failed to load settings'))
+			    throw e
+		    }
+	    },
+		beforeDestroy() {
+		    clearInterval(this.request)
+	    },
 		methods: {
 			open(ev) {
 				const {value} = ev.target;
@@ -63,7 +81,8 @@
 					this.currentSitemap = response.data
 				}
 
-				this.request = setInterval(fetchData, 300000) // 5 minutes
+                const interval = this.settings['server.interval'] ? this.settings['server.interval'] * 1000 : 300000; // 5 minutes
+                this.request = setInterval(fetchData, interval)
 				fetchData()
 			},
 		},
