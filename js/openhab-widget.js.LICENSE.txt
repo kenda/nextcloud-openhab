@@ -1,0 +1,42 @@
+/*!
+ * Chart.js v2.9.4
+ * https://www.chartjs.org
+ * (c) 2020 Chart.js Contributors
+ * Released under the MIT License
+ */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * Vue.js v2.7.13
+ * (c) 2014-2022 Evan You
+ * Released under the MIT License.
+ */
+
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+//! authors : Tim Wood, Iskren Chernev, Moment.js contributors
+
+//! license : MIT
+
+//! moment.js
+
+//! moment.js locale configuration
+
+//! momentjs.com
+
+//! version : 2.29.4

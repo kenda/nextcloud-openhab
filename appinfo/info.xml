@@ -5,15 +5,16 @@
     <name>Openhab Viewer</name>
     <summary>Renders sitemaps of an Openhab instance.</summary>
     <description>This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud.</description>
-    <version>0.10.1</version>
+    <version>0.11.0</version>
     <licence>agpl</licence>
     <author>Marcus Nitzschke</author>
     <category>integration</category>
 	<bugs>https://github.com/kenda/nextcloud-openhab/issues</bugs>
 	<repository>https://github.com/kenda/nextcloud-openhab</repository>
     <screenshot>https://raw.githubusercontent.com/kenda/nextcloud-openhab/master/screenshots/overview.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/kenda/nextcloud-openhab/master/screenshots/dashboard.png</screenshot>
     <dependencies>
-        <nextcloud min-version="12" max-version="25"/>
+        <nextcloud min-version="12" max-version="26"/>
         <php min-version="7.3" max-version="8.1"/>
     </dependencies>
     <navigations>
