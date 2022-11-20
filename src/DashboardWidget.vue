@@ -1,10 +1,10 @@
 <template>
 	<div id="dashboard-openhab">
 		<select @change="open">
-			<option>{{t('openhab', 'Select a sitemap')}}</option>
+			<option :value="null">{{t('openhab', 'Select a sitemap')}}</option>
 			<option
 				v-for="sitemap in sitemaps"
-				:selected="currentSitemap.name === sitemap.name"
+				:selected="currentSitemap && currentSitemap.name === sitemap.name"
 				:value="sitemap.name">
 				{{sitemap.label}}
 			</option>
@@ -76,6 +76,9 @@
 				}
 			},
 			load(sitemap) {
+				if (this.request) {
+    				clearInterval(this.request);
+    			}
 				const fetchData = async() => {
 					const response = await axios.get(OC.generateUrl('/apps/openhab/sitemaps/' + sitemap))
 					this.currentSitemap = response.data

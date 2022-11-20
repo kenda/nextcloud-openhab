@@ -8388,6 +8388,9 @@ var SETTINGS = ['server.interval'];
     },
     load: function load(sitemap) {
       var _this3 = this;
+      if (this.request) {
+        clearInterval(this.request);
+      }
       var fetchData = /*#__PURE__*/function () {
         var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee3() {
           var response;
@@ -8649,10 +8652,14 @@ var render = function render() {
     on: {
       change: _vm.open
     }
-  }, [_c("option", [_vm._v(_vm._s(_vm.t("openhab", "Select a sitemap")))]), _vm._v(" "), _vm._l(_vm.sitemaps, function (sitemap) {
+  }, [_c("option", {
+    domProps: {
+      value: null
+    }
+  }, [_vm._v(_vm._s(_vm.t("openhab", "Select a sitemap")))]), _vm._v(" "), _vm._l(_vm.sitemaps, function (sitemap) {
     return _c("option", {
       domProps: {
-        selected: _vm.currentSitemap.name === sitemap.name,
+        selected: _vm.currentSitemap && _vm.currentSitemap.name === sitemap.name,
         value: sitemap.name
       }
     }, [_vm._v("\n\t\t\t" + _vm._s(sitemap.label) + "\n\t\t")]);
@@ -64822,4 +64829,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
 /******/ })()
 ;
-//# sourceMappingURL=openhab-widget.js.map?v=c0dd20c87dcbe50b4caa
+//# sourceMappingURL=openhab-widget.js.map?v=0d705343c7938e40d2ba

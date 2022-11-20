@@ -91,6 +91,9 @@ export default {
 			this.load(sitemap)
 		},
 		load(sitemap) {
+			if (this.request) {
+				clearInterval(this.request);
+			}
 			const fetchData = async() => {
 				const response = await axios.get(OC.generateUrl('/apps/openhab/sitemaps/' + sitemap))
 				this.currentSitemap = response.data
