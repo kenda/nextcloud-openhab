@@ -8199,11 +8199,15 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
   },
   computed: {
     state: function state() {
-      var hsl = this.config.item.state.split(',');
-      return +hsl[2] === 0 ? 'OFF' : 'ON';
+      if (this.config.item) {
+        var hsl = this.config.item.state.split(',');
+        return +hsl[2] === 0 ? 'OFF' : 'ON';
+      } else {
+        return 'OFF';
+      }
     },
     color: function color() {
-      return this.RGBToHex.apply(this, _toConsumableArray(this.HSLToRGB.apply(this, _toConsumableArray(this.config.item.state.split(',')))));
+      return this.config.item ? this.RGBToHex.apply(this, _toConsumableArray(this.HSLToRGB.apply(this, _toConsumableArray(this.config.item.state.split(','))))) : '#000000';
     },
     label: function label() {
       return _ItemService__WEBPACK_IMPORTED_MODULE_0__["default"].getLabel(this.config.label);
@@ -64829,4 +64833,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
 /******/ })()
 ;
-//# sourceMappingURL=openhab-widget.js.map?v=0d705343c7938e40d2ba
+//# sourceMappingURL=openhab-widget.js.map?v=382bc724168629da82ca

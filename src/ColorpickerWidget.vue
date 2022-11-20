@@ -24,11 +24,15 @@ export default {
 	},
 	computed: {
 		state: function() {
-			const hsl = this.config.item.state.split(',')
-			return +hsl[2] === 0 ? 'OFF' : 'ON'
+			if (this.config.item) {
+				const hsl = this.config.item.state.split(',')
+				return +hsl[2] === 0 ? 'OFF' : 'ON'
+			} else {
+				return 'OFF'
+			}
 		},
 		color: function() {
-			return this.RGBToHex(...this.HSLToRGB(...this.config.item.state.split(',')))
+			return this.config.item ? this.RGBToHex(...this.HSLToRGB(...this.config.item.state.split(','))) : '#000000'
 		},
 		label: function() {
 			return ItemService.getLabel(this.config.label)
