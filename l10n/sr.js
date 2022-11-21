@@ -4,8 +4,9 @@ OC.L10N.register(
     "Openhab Viewer" : "ОпенХаб прегледач",
     "Openhab" : "ОпенХаб",
     "Renders sitemaps of an Openhab instance." : "Исцртава мапу ОпенХаб инстанце",
-    "Server URL" : "Адреса сервера",
     "Failed to load settings" : "Грешка у дохватању поставки",
+    "Server URL" : "Адреса сервера",
+    "seconds" : "секунди",
     "Failed to save settings" : "Грешка приликом чувања поставки"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);");

@@ -1,4 +1,5 @@
 { "translations": {
-    "Server URL" : "Server URL"
+    "Server URL" : "Server URL",
+    "seconds" : "seconds"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

@@ -8,8 +8,9 @@ OC.L10N.register(
     "Select a sitemap" : "Виберіть карту сайту",
     "No sitemaps found. Check your config or create a sitemap." : "Карти сайту не знайдено. Перевірте свою конфігурацію або створіть карту сайту.",
     "Could not fetch sitemaps" : "Не вдалося отримати карти сайту",
-    "Server URL" : "URL сервер",
     "Failed to load settings" : "Не вдалося завантажити налаштування",
+    "Server URL" : "URL сервер",
+    "seconds" : "секунди",
     "Failed to save settings" : "Неможливо зберегти налаштування"
 },
 "nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);");

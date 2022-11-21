@@ -8,9 +8,10 @@ OC.L10N.register(
     "Select a sitemap" : "Válasszon helyszíntérképet",
     "No sitemaps found. Check your config or create a sitemap." : "Nem található helyszíntérkép. Ellenőrizze a beállításait vagy hozzon létre egy helyszíntérképet.",
     "Could not fetch sitemaps" : "Nem sikerült a helyszíntérképek lekérése",
+    "Failed to load settings" : "A beállítások betöltése sikertelen",
     "Server URL" : "Kiszolgáló webcíme",
     "Ignore SSL issues?" : "Figyelmen kívül hagyja az SSL-problémákat?",
-    "Failed to load settings" : "A beállítások betöltése sikertelen",
+    "seconds" : "másodperc",
     "Failed to save settings" : "A beállítások mentése sikertelen"
 },
 "nplurals=2; plural=(n != 1);");

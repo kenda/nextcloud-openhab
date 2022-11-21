@@ -8,9 +8,9 @@ OC.L10N.register(
     "Select a sitemap" : "Vyberte mapu lokality",
     "No sitemaps found. Check your config or create a sitemap." : "Nenalezeny žádné mapy lokalit. Zkontrolujte nastavení nebo takovou mapu vytvořte.",
     "Could not fetch sitemaps" : "Nedaří se získat mapy lokalit",
+    "Failed to load settings" : "Nepodařilo se načíst nastavení",
     "Server URL" : "URL adresa serveru",
     "Ignore SSL issues?" : "Ignorovat problémy s SSL?",
-    "Failed to load settings" : "Nepodařilo se načíst nastavení",
     "Failed to save settings" : "Nastavení se nepodařilo uložit"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");

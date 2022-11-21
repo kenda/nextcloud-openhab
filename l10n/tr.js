@@ -8,9 +8,10 @@ OC.L10N.register(
     "Select a sitemap" : "Bir site haritası seçin",
     "No sitemaps found. Check your config or create a sitemap." : "Herhangi bir site haritası bulunamadı. Yapılandırmanızı denetleyin ya da bir site haritası oluşturun.",
     "Could not fetch sitemaps" : "Site haritaları alınamadı",
+    "Failed to load settings" : "Ayarlar yüklenemedi",
     "Server URL" : "Sunucu adresi",
     "Ignore SSL issues?" : "SSL sorunları yok sayılsın",
-    "Failed to load settings" : "Ayarlar yüklenemedi",
+    "seconds" : "saniye",
     "Failed to save settings" : "Ayarlar kaydedilemedi"
 },
 "nplurals=2; plural=(n > 1);");

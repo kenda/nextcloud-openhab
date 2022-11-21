@@ -1,8 +1,9 @@
 OC.L10N.register(
     "openhab",
     {
-    "Server URL" : "서버 URL",
     "Failed to load settings" : "환경설정 로딩 실패",
+    "Server URL" : "서버 URL",
+    "seconds" : "초",
     "Failed to save settings" : "환경설정 저장 실패"
 },
 "nplurals=1; plural=0;");

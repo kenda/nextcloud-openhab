@@ -1,8 +1,9 @@
 OC.L10N.register(
     "openhab",
     {
-    "Server URL" : "URL-slóð vefþjóns",
     "Failed to load settings" : "Mistókst að hlaða inn stillingum",
+    "Server URL" : "URL-slóð vefþjóns",
+    "seconds" : "sekúndur",
     "Failed to save settings" : "Mistókst að vista stillingar"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

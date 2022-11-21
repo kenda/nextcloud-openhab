@@ -1,5 +1,6 @@
 { "translations": {
     "Server URL" : "URL Server",
+    "seconds" : "detik",
     "Failed to save settings" : "Gagal simpan setelan"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
