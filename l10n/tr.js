@@ -11,6 +11,7 @@ OC.L10N.register(
     "Failed to load settings" : "Ayarlar yüklenemedi",
     "Server URL" : "Sunucu adresi",
     "Ignore SSL issues?" : "SSL sorunları yok sayılsın",
+    "Refresh interval" : "Yenileme sıklığı",
     "seconds" : "saniye",
     "Failed to save settings" : "Ayarlar kaydedilemedi"
 },

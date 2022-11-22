@@ -11,6 +11,7 @@ OC.L10N.register(
     "Failed to load settings" : "Неуспешно зареждане на настройки",
     "Server URL" : "URL адрес на сървъра",
     "Ignore SSL issues?" : "Игнориране на проблемите със SSL?",
+    "seconds" : "секунди",
     "Failed to save settings" : "Неуспешно запазване на настройките"
 },
 "nplurals=2; plural=(n != 1);");

@@ -11,6 +11,7 @@ OC.L10N.register(
     "Failed to load settings" : "Einstellungen konnten nicht geladen werden",
     "Server URL" : "Server-URL",
     "Ignore SSL issues?" : "SSL Fehler ignorieren?",
+    "Refresh interval" : "Aktualisierungsintervall",
     "seconds" : "Sekunden",
     "Failed to save settings" : "Einstellungen konnten nicht gespeichert werden"
 },
