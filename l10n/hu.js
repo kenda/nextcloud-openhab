@@ -11,6 +11,7 @@ OC.L10N.register(
     "Failed to load settings" : "A beállítások betöltése sikertelen",
     "Server URL" : "Kiszolgáló webcíme",
     "Ignore SSL issues?" : "Figyelmen kívül hagyja az SSL-problémákat?",
+    "Refresh interval" : "Frissítési időköz",
     "seconds" : "másodperc",
     "Failed to save settings" : "A beállítások mentése sikertelen"
 },

@@ -11,6 +11,7 @@ OC.L10N.register(
     "Failed to load settings" : "載入設定失敗",
     "Server URL" : "伺服器 URL",
     "Ignore SSL issues?" : "不理會 SSL 問題？",
+    "Refresh interval" : "更新間距",
     "seconds" : "秒",
     "Failed to save settings" : "設定儲存失敗"
 },

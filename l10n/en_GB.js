@@ -1,7 +1,18 @@
 OC.L10N.register(
     "openhab",
     {
+    "Openhab Viewer" : "Openhab Viewer",
+    "Openhab" : "Openhab",
+    "Renders sitemaps of an Openhab instance." : "Renders sitemaps of an Openhab instance.",
+    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud.",
+    "Select a sitemap" : "Select a sitemap",
+    "No sitemaps found. Check your config or create a sitemap." : "No sitemaps found. Check your config or create a sitemap.",
+    "Could not fetch sitemaps" : "Could not fetch sitemaps",
+    "Failed to load settings" : "Failed to load settings",
     "Server URL" : "Server URL",
-    "seconds" : "seconds"
+    "Ignore SSL issues?" : "Ignore SSL issues?",
+    "Refresh interval" : "Refresh interval",
+    "seconds" : "seconds",
+    "Failed to save settings" : "Failed to save settings"
 },
 "nplurals=2; plural=(n != 1);");
