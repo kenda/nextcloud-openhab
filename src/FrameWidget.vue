@@ -1,5 +1,5 @@
 <template>
-	<div class="frame">
+	<div class="frame" v-if="config.widgets && config.widgets.length">
 		<h2 v-if="config.label">
 			{{ config.label }}
 		</h2>
