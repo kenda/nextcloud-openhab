@@ -11,6 +11,7 @@ OC.L10N.register(
     "Failed to load settings" : "Nepodarilo sa načítať nastavenia",
     "Server URL" : "URL servera",
     "Ignore SSL issues?" : "Ignorovať chyby SSL?",
+    "Refresh interval" : "Interval obnovenia",
     "seconds" : "sekúnd",
     "Failed to save settings" : "Nepodarilo sa uložiť nastavenia"
 },
