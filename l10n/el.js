@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Αποτυχία φόρτωσης ρυθμίσεων",
     "Server URL" : "URL διακομιστή",
+    "seconds" : "δευτερόλεπτα",
     "Failed to save settings" : "Αποτυχία αποθήκευσης ρυθμίσεων"
 },
 "nplurals=2; plural=(n != 1);");
