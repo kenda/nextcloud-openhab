@@ -6,27 +6,50 @@
 			<figure v-if="!loading && success" class="icon-checkmark success" />
 		</h2>
 
-		<fieldset>
+		<h3>{{t('openhab', 'Server settings')}}</h3>
+		<fieldset class="d-flex">
+			<label class="d-flex"><input type="radio" v-model="settings['server.type']" value="myopenhab" @change="onChange" />myopenhab.org</label>&nbsp;
+			<label class="d-flex"><input type="radio" v-model="settings['server.type']" value="custom" @change="onChange" />{{t('openhab', 'custom')}}</label>
+		</fieldset>
+
+		<fieldset v-if="settings['server.type'] === 'custom'">
 			<label class="d-flex">{{t('openhab', 'Server URL')}}:&nbsp;
 				<input v-model="settings['server.url']"
 					type="text"
-					@input="onChange">
+					@blur="onChange">
 			</label>
 		</fieldset>
 
-		<fieldset>
+		<fieldset v-if="settings['server.type'] === 'custom'">
 			<label class="d-flex">{{t('openhab', 'Ignore SSL issues?')}}&nbsp;
 				<input v-model="settings['server.ignoreSSL']"
 					type="checkbox"
-					@input="onChange">
+					@change="onChange">
 			</label>
 		</fieldset>
 
+		<fieldset v-if="settings['server.type'] === 'myopenhab'">
+			<label class="d-flex">{{t('openhab', 'Username')}}:&nbsp;
+				<input v-model="settings['server.username']"
+					type="text"
+					@blur="onChange">
+			</label>
+		</fieldset>
+
+		<fieldset v-if="settings['server.type'] === 'myopenhab'">
+			<label class="d-flex">{{t('openhab', 'Password')}}:&nbsp;
+				<input v-model="settings['server.password']"
+					type="password"
+					@blur="onChange">
+			</label>
+		</fieldset>
+
+		<h3>{{t('openhab', 'Additional settings')}}</h3>
 		<fieldset>
 			<label class="d-flex">{{t('openhab', 'Refresh interval')}}:&nbsp;
 				<input v-model="settings['server.interval']"
 					type="number"
-					@input="onChange">
+					@blur="onChange">
 				{{t('openhab', 'seconds')}}
 			</label>
 		</fieldset>
@@ -37,7 +60,10 @@
 import { loadSettings } from './utils/settings';
 
 const SETTINGS = [
+	'server.type',
 	'server.url',
+	'server.username',
+	'server.password',
 	'server.ignoreSSL',
 	'server.interval',
 ]
@@ -54,7 +80,6 @@ export default {
 		}
 	},
 	watch: {
-		settings: 'submit',
 		error(error) {
 			if (!error) return
 			OC.Notification.showTemporary(error)
@@ -63,6 +88,12 @@ export default {
 	async created() {
 		try {
 			this.settings = await loadSettings(SETTINGS);
+
+			// set initial value of server mode
+			if (!this.settings['server.type']) {
+				this.settings['server.type'] = 'custom';
+				this.setValue('server.type', 'custom');
+			}
 		} catch (e) {
 			this.error = this.t('openhab', 'Failed to load settings')
 			throw e
@@ -88,11 +119,11 @@ export default {
 		},
 		async setValue(setting, value) {
 			try {
-				await new Promise((resolve, reject) =>
+				await new Promise((resolve, reject) => {
 					OCP.AppConfig.setValue('openhab', setting, value, {
 						success: resolve,
 						error: reject,
-					})
+					})}
 				)
 			} catch (e) {
 				this.error = this.t('openhab', 'Failed to save settings')
@@ -108,7 +139,11 @@ export default {
 		align-items: center;
 	}
 
-	input[type='text'] {
+	input[type='text'], input[type='password'] {
 		width: 250px;
+	}
+
+	h3 {
+		font-weight: bold;
 	}
 </style>
