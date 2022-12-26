@@ -1,5 +1,9 @@
 { "translations": {
     "Failed to load settings" : "Fejl ved indlæsning af indstillinger",
+    "Server settings" : "Serverindstillinger",
+    "Username" : "Brugernavn",
+    "Password" : "Adgangskode",
+    "Additional settings" : "Yderligere indstillinger",
     "seconds" : "sekunder ",
     "Failed to save settings" : "Kunne ikke gemme indstillinger"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"

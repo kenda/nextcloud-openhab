@@ -1,5 +1,9 @@
 { "translations": {
+    "Server settings" : "Konfigurimet e serverit",
     "Server URL" : "URL e serverit",
+    "Username" : "Username",
+    "Password" : "Fjalëkalim",
+    "Additional settings" : "Konfigurime shtesë",
     "seconds" : "sekonda"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

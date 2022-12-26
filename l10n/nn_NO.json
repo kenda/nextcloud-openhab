@@ -1,4 +1,7 @@
 { "translations": {
+    "Username" : "Brukarnamn",
+    "Password" : "Passord",
+    "Additional settings" : "Tilleggsinnstillingar",
     "seconds" : "sekund"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

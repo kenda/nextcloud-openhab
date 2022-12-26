@@ -3,6 +3,8 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Tải cấu hình thất bại",
     "Server URL" : "URL máy chủ",
+    "Username" : "Tên đăng nhập",
+    "Password" : "Mật khẩu",
     "seconds" : "giây",
     "Failed to save settings" : "Lưu cấu hình thất bại"
 },

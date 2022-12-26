@@ -1,4 +1,6 @@
 { "translations": {
+    "Username" : "ব্যবহারকারী",
+    "Password" : "কূটশব্দ",
     "seconds" : "সেকেন্ড"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

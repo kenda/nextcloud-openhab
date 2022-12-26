@@ -1,4 +1,7 @@
 { "translations": {
+    "Server settings" : "Bedienerinstellings",
+    "Username" : "Gebruikersnaam",
+    "Password" : "Wagwoord",
     "seconds" : "sekondes"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

@@ -9,8 +9,12 @@ OC.L10N.register(
     "No sitemaps found. Check your config or create a sitemap." : "Sivustokarttoja ei löytynyt. Tarkista asetukset tai luo sivustokartta.",
     "Could not fetch sitemaps" : "Sivustokarttoja ei voitu noutaa",
     "Failed to load settings" : "Asetusten lataaminen epäonnistui",
+    "Server settings" : "Palvelinasetukset",
     "Server URL" : "Palvelimen osoite",
     "Ignore SSL issues?" : "Ohita SSL-ongelmat?",
+    "Username" : "Käyttäjätunnus",
+    "Password" : "Salasana",
+    "Additional settings" : "Lisäasetukset",
     "Refresh interval" : "Päivitysväli",
     "seconds" : "sekuntia",
     "Failed to save settings" : "Asetusten tallentaminen epäonnistui"

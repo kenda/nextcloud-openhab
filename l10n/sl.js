@@ -2,7 +2,11 @@ OC.L10N.register(
     "openhab",
     {
     "Failed to load settings" : "Nalaganje nastavitev je spodletelo.",
+    "Server settings" : "Nastavitve strežnika",
     "Server URL" : "Naslov URL strežnika",
+    "Username" : "Uporabniško ime",
+    "Password" : "Geslo",
+    "Additional settings" : "Dodatne nastavitve",
     "seconds" : "sekunde",
     "Failed to save settings" : "Shranjevanje nastavitev je spodletelo"
 },

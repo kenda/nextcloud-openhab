@@ -7,8 +7,12 @@
     "No sitemaps found. Check your config or create a sitemap." : "Няма намерени карти на сайта. Проверете конфигурацията си или създайте карта на сайта.",
     "Could not fetch sitemaps" : "Не можаха да бъдат извлечени карти на сайта",
     "Failed to load settings" : "Неуспешно зареждане на настройки",
+    "Server settings" : "Настройки на сървъра",
     "Server URL" : "URL адрес на сървъра",
     "Ignore SSL issues?" : "Игнориране на проблемите със SSL?",
+    "Username" : "Потребител",
+    "Password" : "Парола",
+    "Additional settings" : "Допълнителни настройки",
     "Refresh interval" : "Интервал на обновяване",
     "seconds" : "секунди",
     "Failed to save settings" : "Неуспешно запазване на настройките"

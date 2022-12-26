@@ -1,5 +1,9 @@
 { "translations": {
+    "Server settings" : "სერვერის პარამეტრები",
     "Server URL" : "სერვერის URL",
+    "Username" : "მომხმარებელი",
+    "Password" : "პაროლი",
+    "Additional settings" : "დამატებითი პარამეტრები",
     "seconds" : "წამი"
 },"pluralForm" :"nplurals=2; plural=(n!=1);"
 }

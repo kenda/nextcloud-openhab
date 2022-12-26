@@ -2,7 +2,11 @@ OC.L10N.register(
     "openhab",
     {
     "Failed to load settings" : "Mistókst að hlaða inn stillingum",
+    "Server settings" : "Stillingar þjóns",
     "Server URL" : "URL-slóð vefþjóns",
+    "Username" : "Notandanafn",
+    "Password" : "Lykilorð",
+    "Additional settings" : "Valfrjálsar stillingar",
     "seconds" : "sekúndur",
     "Failed to save settings" : "Mistókst að vista stillingar"
 },

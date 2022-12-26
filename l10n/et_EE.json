@@ -1,4 +1,8 @@
 { "translations": {
+    "Server settings" : "Serveri seaded",
+    "Username" : "Kasutajanimi",
+    "Password" : "Parool",
+    "Additional settings" : "Lisaseaded",
     "seconds" : "sekundit"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

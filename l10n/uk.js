@@ -10,6 +10,9 @@ OC.L10N.register(
     "Could not fetch sitemaps" : "Не вдалося отримати карти сайту",
     "Failed to load settings" : "Не вдалося завантажити налаштування",
     "Server URL" : "URL сервер",
+    "Username" : "Ім'я користувача",
+    "Password" : "Пароль",
+    "Additional settings" : "Додаткові налаштування",
     "seconds" : "секунди",
     "Failed to save settings" : "Неможливо зберегти налаштування"
 },

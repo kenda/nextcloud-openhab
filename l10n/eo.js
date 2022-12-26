@@ -2,6 +2,9 @@ OC.L10N.register(
     "openhab",
     {
     "Failed to load settings" : "Ŝargo de agordoj malsukcesis",
+    "Username" : "Uzantnomo",
+    "Password" : "Pasvorto",
+    "Additional settings" : "Plia agordo",
     "seconds" : "sekundoj",
     "Failed to save settings" : "Konservo de agordoj malsukcesis"
 },

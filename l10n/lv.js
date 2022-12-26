@@ -1,7 +1,11 @@
 OC.L10N.register(
     "openhab",
     {
+    "Server settings" : "Servera iestatījumi",
     "Server URL" : "Servera URL",
+    "Username" : "Lietotājvārds",
+    "Password" : "Parole",
+    "Additional settings" : "Papildu iestatījumi",
     "seconds" : "sekundes",
     "Failed to save settings" : "Neizdevās saglabāt iestatījumus"
 },

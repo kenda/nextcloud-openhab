@@ -2,7 +2,11 @@ OC.L10N.register(
     "openhab",
     {
     "Failed to load settings" : "Nie udało się wczytać ustawień",
+    "Server settings" : "Ustawienia serwera",
     "Server URL" : "Adres URL serwera",
+    "Username" : "Nazwa użytkownika",
+    "Password" : "Hasło",
+    "Additional settings" : "Ustawienia dodatkowe",
     "seconds" : "sekundy",
     "Failed to save settings" : "Nie udało się zapisać ustawień"
 },

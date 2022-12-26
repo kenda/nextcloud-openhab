@@ -9,7 +9,11 @@ OC.L10N.register(
     "No sitemaps found. Check your config or create a sitemap." : "Nenhum sitemap encontrado. Verifique suas configurações ou crie um sitemap.",
     "Could not fetch sitemaps" : "Não foi possível recuperar sitemaps",
     "Failed to load settings" : "Erro ao carregar configurações",
+    "Server settings" : "Configurações do servidor",
     "Server URL" : "URL do servidor",
+    "Username" : "Nome de usuário",
+    "Password" : "Senha",
+    "Additional settings" : "Configurações adicionais",
     "seconds" : "segundos",
     "Failed to save settings" : "Erro ao salvar configurações"
 },

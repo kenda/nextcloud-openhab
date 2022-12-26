@@ -1,4 +1,6 @@
 { "translations": {
+    "Username" : "ชื่อผู้ใช้",
+    "Password" : "รหัสผ่าน",
     "seconds" : "วินาที"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

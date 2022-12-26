@@ -1,6 +1,9 @@
 OC.L10N.register(
     "openhab",
     {
+    "Username" : "Nome de utilizador",
+    "Password" : "Palavra-passe",
+    "Additional settings" : "Definições adicionais",
     "seconds" : "segundos",
     "Failed to save settings" : "Erro ao gravar as definições"
 },

@@ -2,7 +2,11 @@ OC.L10N.register(
     "openhab",
     {
     "Failed to load settings" : "Učitavanje postavki nije uspjelo",
+    "Server settings" : "Postavke poslužitelja",
     "Server URL" : "URL poslužitelja",
+    "Username" : "Korisničko ime",
+    "Password" : "Zaporka",
+    "Additional settings" : "Dodatne postavke",
     "seconds" : "sekundi",
     "Failed to save settings" : "Spremanje postavki nije uspjelo"
 },

@@ -2,7 +2,11 @@ OC.L10N.register(
     "openhab",
     {
     "Failed to load settings" : "Nepavyko įkelti nustatymų",
+    "Server settings" : "Serverio nustatymai",
     "Server URL" : "Serverio URL",
+    "Username" : "Naudotojo vardas",
+    "Password" : "Slaptažodis",
+    "Additional settings" : "Papildomi nustatymai",
     "seconds" : "sekundė",
     "Failed to save settings" : "Nepavyko įrašyti nustatymų"
 },

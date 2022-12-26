@@ -2,7 +2,11 @@ OC.L10N.register(
     "openhab",
     {
     "Failed to load settings" : "Huts egin du ezarpenak kargatzean",
+    "Server settings" : "Zerbitzariaren ezarpenak",
     "Server URL" : "Zerbitzariaren URLa",
+    "Username" : "Erabiltzaile-izena",
+    "Password" : "Pasahitza",
+    "Additional settings" : "Ezarpen gehiago",
     "seconds" : "segundo",
     "Failed to save settings" : "Huts egin du ezarpenak gordetzean"
 },

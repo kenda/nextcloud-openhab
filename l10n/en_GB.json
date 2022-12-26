@@ -7,8 +7,12 @@
     "No sitemaps found. Check your config or create a sitemap." : "No sitemaps found. Check your config or create a sitemap.",
     "Could not fetch sitemaps" : "Could not fetch sitemaps",
     "Failed to load settings" : "Failed to load settings",
+    "Server settings" : "Server settings",
     "Server URL" : "Server URL",
     "Ignore SSL issues?" : "Ignore SSL issues?",
+    "Username" : "Username",
+    "Password" : "Password",
+    "Additional settings" : "Additional settings",
     "Refresh interval" : "Refresh interval",
     "seconds" : "seconds",
     "Failed to save settings" : "Failed to save settings"

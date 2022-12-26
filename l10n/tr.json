@@ -7,8 +7,12 @@
     "No sitemaps found. Check your config or create a sitemap." : "Herhangi bir site haritası bulunamadı. Yapılandırmanızı denetleyin ya da bir site haritası oluşturun.",
     "Could not fetch sitemaps" : "Site haritaları alınamadı",
     "Failed to load settings" : "Ayarlar yüklenemedi",
+    "Server settings" : "Sunucu ayarları",
     "Server URL" : "Sunucu adresi",
     "Ignore SSL issues?" : "SSL sorunları yok sayılsın",
+    "Username" : "Kullanıcı adı",
+    "Password" : "Parola",
+    "Additional settings" : "Ek ayarlar",
     "Refresh interval" : "Yenileme sıklığı",
     "seconds" : "saniye",
     "Failed to save settings" : "Ayarlar kaydedilemedi"
