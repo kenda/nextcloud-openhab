@@ -57,7 +57,7 @@
 </template>
 
 <script>
-import { loadSettings } from './utils/settings';
+import axios from '@nextcloud/axios';
 
 const SETTINGS = [
 	'server.type',
@@ -75,19 +75,13 @@ export default {
 			settings: SETTINGS.reduce((obj, key) => ({ ...obj, [key]: '' }), {}),
 			loading: false,
 			success: false,
-			error: '',
 			timeout: null,
 		}
 	},
-	watch: {
-		error(error) {
-			if (!error) return
-			OC.Notification.showTemporary(error)
-		},
-	},
 	async created() {
 		try {
-			this.settings = await loadSettings(SETTINGS);
+			const response = await axios.get(OC.generateUrl('/apps/openhab/settings'))
+			this.settings = response.data;
 
 			// set initial value of server mode
 			if (!this.settings['server.type']) {
@@ -95,7 +89,8 @@ export default {
 				this.setValue('server.type', 'custom');
 			}
 		} catch (e) {
-			this.error = this.t('openhab', 'Failed to load settings')
+			const error = this.t('openhab', 'Failed to load settings')
+			OC.Notification.showTemporary(error)
 			throw e
 		}
 	},
@@ -110,25 +105,16 @@ export default {
 		},
 		async submit() {
 			this.loading = true
-			for (const setting in this.settings) {
-				this.setValue(setting, this.settings[setting])
-			}
-			this.loading = false
-			this.success = true
-			setTimeout(() => { this.success = false }, 3000)
-		},
-		async setValue(setting, value) {
 			try {
-				await new Promise((resolve, reject) => {
-					OCP.AppConfig.setValue('openhab', setting, value, {
-						success: resolve,
-						error: reject,
-					})}
-				)
+				await axios.put(OC.generateUrl('/apps/openhab/settings'), this.settings)
+				this.success = true;
 			} catch (e) {
-				this.error = this.t('openhab', 'Failed to save settings')
+				const error = this.t('openhab', 'Failed to save settings')
+				OC.Notification.showTemporary(error)
 				throw e
 			}
+			this.loading = false
+			setTimeout(() => { this.success = false }, 3000)
 		},
 	},
 }

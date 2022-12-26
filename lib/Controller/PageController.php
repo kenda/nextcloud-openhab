@@ -1,19 +1,22 @@
 <?php
 namespace OCA\Openhab\Controller;
 
+use OCA\Openhab\Services\ApiService;
 use OCP\IRequest;
 use OCP\AppFramework\Http\TemplateResponse;
-use OCP\AppFramework\Http\DataResponse;
 use OCP\AppFramework\Controller;
 use OCP\Util;
 
 class PageController extends Controller {
-	private $userId;
-	private $logger;
+
+	private $apiService;
 
 	public function __construct($appName,
-								IRequest $request){
+								IRequest $request,
+								ApiService $apiService){
 		parent::__construct($appName, $request);
+
+		$this->apiService = $apiService;
 	}
 
 	/**
@@ -30,4 +33,29 @@ class PageController extends Controller {
 		Util::addScript($this->appName, 'openhab-main');
 		return new TemplateResponse($this->appName, 'main');
 	}
+
+	    /**
+     * @NoAdminRequired
+     */
+    public function getSitemaps() {
+        return $this->apiService->sendRequest('/rest/sitemaps');
+    }
+
+     /**
+      * @NoAdminRequired
+      *
+      * @param string $id
+      */
+     public function getSitemap(string $id) {
+         return $this->apiService->sendRequest('/rest/sitemaps/' . $id);
+     }
+
+	/**
+      * @NoAdminRequired
+      *
+      * @param string $id
+      */
+     public function getItemPersistence(string $item) {
+         return $this->apiService->sendRequest('/rest/persistence/items/' . $item);
+     }
 }
