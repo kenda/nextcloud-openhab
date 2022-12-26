@@ -5,8 +5,8 @@
 </template>
 
 <script>
-
 import axios from '@nextcloud/axios'
+import { generateUrl } from '@nextcloud/router'
 import Chart from 'chart.js'
 
 import ItemService from './ItemService'
@@ -30,7 +30,7 @@ export default {
 		},
 	},
 	async mounted() {
-		const response = await axios.get(OC.generateUrl('/apps/openhab/persistence/') + this.config.item.name)
+		const response = await axios.get(generateUrl('/apps/openhab/persistence/') + this.config.item.name)
 		const data = response.data.data.map(item => ({ t: item.time, y: item.state }))
 		this.createChart(this.config.item.name, data)
 	},

@@ -58,6 +58,8 @@
 
 <script>
 import axios from '@nextcloud/axios';
+import { showError } from '@nextcloud/dialogs'
+import { generateUrl } from '@nextcloud/router'
 
 const SETTINGS = [
 	'server.type',
@@ -80,7 +82,7 @@ export default {
 	},
 	async created() {
 		try {
-			const response = await axios.get(OC.generateUrl('/apps/openhab/settings'))
+			const response = await axios.get(generateUrl('/apps/openhab/settings'))
 			this.settings = response.data;
 
 			// set initial value of server mode
@@ -89,8 +91,7 @@ export default {
 				this.setValue('server.type', 'custom');
 			}
 		} catch (e) {
-			const error = this.t('openhab', 'Failed to load settings')
-			OC.Notification.showTemporary(error)
+			showError(this.t('openhab', 'Failed to load settings'))
 			throw e
 		}
 	},
@@ -106,11 +107,10 @@ export default {
 		async submit() {
 			this.loading = true
 			try {
-				await axios.put(OC.generateUrl('/apps/openhab/settings'), this.settings)
+				await axios.put(generateUrl('/apps/openhab/settings'), this.settings)
 				this.success = true;
 			} catch (e) {
-				const error = this.t('openhab', 'Failed to save settings')
-				OC.Notification.showTemporary(error)
+				showError(this.t('openhab', 'Failed to save settings'))
 				throw e
 			}
 			this.loading = false

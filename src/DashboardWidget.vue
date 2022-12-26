@@ -22,6 +22,8 @@
 
 <script>
 	import axios from '@nextcloud/axios'
+	import { showError } from '@nextcloud/dialogs'
+	import { generateUrl } from '@nextcloud/router'
 	import Widget from './Widget'
 
 	export default {
@@ -38,11 +40,11 @@
 		},
 		async mounted() {
 			try {
-				const response = await axios.get(OC.generateUrl('/apps/openhab/sitemaps'))
+				const response = await axios.get(generateUrl('/apps/openhab/sitemaps'))
 				this.sitemaps = response.data
 			} catch (e) {
 				console.error(e)
-				OCP.Toast.error(t('openhab', 'Could not fetch sitemaps'))
+				showError(t('openhab', 'Could not fetch sitemaps'))
 			}
 
 			const lastSitemap = localStorage.getItem('ohv:dashboard:lastSitemap');
@@ -52,10 +54,10 @@
 		},
 		async created() {
 		    try {
-				const response = await axios.get(OC.generateUrl('/apps/openhab/settings'))
+				const response = await axios.get(generateUrl('/apps/openhab/settings'))
 				this.settings = response.data;
     		} catch (e) {
-    			OCP.Toast.error(t('openhab', 'Failed to load settings'))
+    			showError(t('openhab', 'Failed to load settings'))
 			    throw e
 		    }
 	    },
@@ -75,7 +77,7 @@
     				clearInterval(this.request);
     			}
 				const fetchData = async() => {
-					const response = await axios.get(OC.generateUrl('/apps/openhab/sitemaps/' + sitemap))
+					const response = await axios.get(generateUrl('/apps/openhab/sitemaps/' + sitemap))
 					this.currentSitemap = response.data
 				}
 
