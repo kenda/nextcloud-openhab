@@ -12,7 +12,7 @@ OC.L10N.register(
     "Server settings" : "Servereinstellungen",
     "Server URL" : "Server-URL",
     "Ignore SSL issues?" : "SSL Fehler ignorieren?",
-    "Username" : "Benötigt keine Übersetzung. Hier wird nur die formelle Übersetzung verwendet (de_DE).",
+    "Username" : "Benutzername",
     "Password" : "Passwort",
     "Additional settings" : "Zusätzliche Einstellungen",
     "seconds" : "Sekunden",
