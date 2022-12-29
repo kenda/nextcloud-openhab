@@ -10,6 +10,7 @@ OC.L10N.register(
     "Could not fetch sitemaps" : "Nedaří se získat mapy lokalit",
     "Failed to load settings" : "Nepodařilo se načíst nastavení",
     "Server settings" : "Nastavení serveru",
+    "custom" : "uživatelsky určené",
     "Server URL" : "URL adresa serveru",
     "Ignore SSL issues?" : "Ignorovat problémy s SSL?",
     "Username" : "Uživatelské jméno",
