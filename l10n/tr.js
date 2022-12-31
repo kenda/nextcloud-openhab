@@ -10,6 +10,7 @@ OC.L10N.register(
     "Could not fetch sitemaps" : "Site haritaları alınamadı",
     "Failed to load settings" : "Ayarlar yüklenemedi",
     "Server settings" : "Sunucu ayarları",
+    "custom" : "özel",
     "Server URL" : "Sunucu adresi",
     "Ignore SSL issues?" : "SSL sorunları yok sayılsın",
     "Username" : "Kullanıcı adı",
