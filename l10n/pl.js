@@ -1,12 +1,22 @@
 OC.L10N.register(
     "openhab",
     {
+    "Openhab Viewer" : "Przeglądarka Openhab",
+    "Openhab" : "Openhab",
+    "Renders sitemaps of an Openhab instance." : "Renderuje mapy witryn instancji Openhab.",
+    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "aplikacja ta renderuje dostępne mapy witryn instancji serwera Openhab. Dzięki temu możesz wyświetlać wartości z inteligentnego domu w Nextcloud.",
+    "Select a sitemap" : "Wybierz mapę witryny",
+    "No sitemaps found. Check your config or create a sitemap." : "Nie znaleziono map witryn. Sprawdź konfigurację lub utwórz mapę witryny.",
+    "Could not fetch sitemaps" : "Nie można pobrać map witryn",
     "Failed to load settings" : "Nie udało się wczytać ustawień",
     "Server settings" : "Ustawienia serwera",
+    "custom" : "Dowolne",
     "Server URL" : "Adres URL serwera",
+    "Ignore SSL issues?" : "Ignorować problemy z SSL?",
     "Username" : "Nazwa użytkownika",
     "Password" : "Hasło",
     "Additional settings" : "Ustawienia dodatkowe",
+    "Refresh interval" : "Częstotliwość odświeżania",
     "seconds" : "sekundy",
     "Failed to save settings" : "Nie udało się zapisać ustawień"
 },

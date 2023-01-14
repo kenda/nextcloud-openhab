@@ -1,10 +1,20 @@
 { "translations": {
+    "Openhab Viewer" : "Przeglądarka Openhab",
+    "Openhab" : "Openhab",
+    "Renders sitemaps of an Openhab instance." : "Renderuje mapy witryn instancji Openhab.",
+    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "aplikacja ta renderuje dostępne mapy witryn instancji serwera Openhab. Dzięki temu możesz wyświetlać wartości z inteligentnego domu w Nextcloud.",
+    "Select a sitemap" : "Wybierz mapę witryny",
+    "No sitemaps found. Check your config or create a sitemap." : "Nie znaleziono map witryn. Sprawdź konfigurację lub utwórz mapę witryny.",
+    "Could not fetch sitemaps" : "Nie można pobrać map witryn",
     "Failed to load settings" : "Nie udało się wczytać ustawień",
     "Server settings" : "Ustawienia serwera",
+    "custom" : "Dowolne",
     "Server URL" : "Adres URL serwera",
+    "Ignore SSL issues?" : "Ignorować problemy z SSL?",
     "Username" : "Nazwa użytkownika",
     "Password" : "Hasło",
     "Additional settings" : "Ustawienia dodatkowe",
+    "Refresh interval" : "Częstotliwość odświeżania",
     "seconds" : "sekundy",
     "Failed to save settings" : "Nie udało się zapisać ustawień"
 },"pluralForm" :"nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);"

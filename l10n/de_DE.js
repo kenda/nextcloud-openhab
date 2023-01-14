@@ -12,7 +12,7 @@ OC.L10N.register(
     "Server settings" : "Servereinstellungen",
     "custom" : "Benutzerdefiniert",
     "Server URL" : "Server-URL",
-    "Ignore SSL issues?" : "SSL Fehler ignorieren?",
+    "Ignore SSL issues?" : "SSL-Fehler ignorieren?",
     "Username" : "Benutzername",
     "Password" : "Passwort",
     "Additional settings" : "Zusätzliche Einstellungen",
