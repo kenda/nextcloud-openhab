@@ -1,8 +1,11 @@
 OC.L10N.register(
     "openhab",
     {
+    "Openhab Viewer" : "Openhab ikustailea",
+    "Openhab" : "Openhab",
     "Failed to load settings" : "Huts egin du ezarpenak kargatzean",
     "Server settings" : "Zerbitzariaren ezarpenak",
+    "custom" : "pertsonalizatua",
     "Server URL" : "Zerbitzariaren URLa",
     "Username" : "Erabiltzaile-izena",
     "Password" : "Pasahitza",
