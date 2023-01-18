@@ -3,7 +3,7 @@ OC.L10N.register(
     {
     "Openhab Viewer" : "Openhab ikustailea",
     "Openhab" : "Openhab",
-    "Failed to load settings" : "Huts egin du ezarpenak kargatzean",
+    "Failed to load settings" : "Ezarpenak kargatzeak huts egin du",
     "Server settings" : "Zerbitzariaren ezarpenak",
     "custom" : "pertsonalizatua",
     "Server URL" : "Zerbitzariaren URLa",
@@ -11,6 +11,6 @@ OC.L10N.register(
     "Password" : "Pasahitza",
     "Additional settings" : "Ezarpen gehiago",
     "seconds" : "segundo",
-    "Failed to save settings" : "Huts egin du ezarpenak gordetzean"
+    "Failed to save settings" : "Ezarpenak gordetzeak huts egin du"
 },
 "nplurals=2; plural=(n != 1);");
