@@ -10,11 +10,13 @@ OC.L10N.register(
     "Could not fetch sitemaps" : "Sitemaps konnten nicht abgerufen werden.",
     "Failed to load settings" : "Einstellungen konnten nicht geladen werden",
     "Server settings" : "Servereinstellungen",
+    "custom" : "Benutzerdefiniert",
     "Server URL" : "Server-URL",
     "Ignore SSL issues?" : "SSL Fehler ignorieren?",
     "Username" : "Benutzername",
     "Password" : "Passwort",
     "Additional settings" : "Zusätzliche Einstellungen",
+    "Refresh interval" : "Aktualisierungsintervall",
     "seconds" : "Sekunden",
     "Failed to save settings" : "Einstellungen konnten nicht gespeichert werden"
 },
