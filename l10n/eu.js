@@ -7,6 +7,7 @@ OC.L10N.register(
     "Server settings" : "Zerbitzariaren ezarpenak",
     "custom" : "pertsonalizatua",
     "Server URL" : "Zerbitzariaren URLa",
+    "Ignore SSL issues?" : "Ezikusi SSL arazoak?",
     "Username" : "Erabiltzaile-izena",
     "Password" : "Pasahitza",
     "Additional settings" : "Ezarpen gehiago",
