@@ -3,6 +3,9 @@ OC.L10N.register(
     {
     "Openhab Viewer" : "Openhab ikustailea",
     "Openhab" : "Openhab",
+    "Select a sitemap" : "Aukeratu sitemap bat",
+    "No sitemaps found. Check your config or create a sitemap." : "Ez da sitemapik aurkitu. Egiaztatu zure konfigurazioa edo sortu sitemap bat.",
+    "Could not fetch sitemaps" : "Ezin izan dira sitemapak eskuratu",
     "Failed to load settings" : "Ezarpenak kargatzeak huts egin du",
     "Server settings" : "Zerbitzariaren ezarpenak",
     "custom" : "pertsonalizatua",
