@@ -5,6 +5,7 @@ OC.L10N.register(
     "Server URL" : "URL máy chủ",
     "Username" : "Tên đăng nhập",
     "Password" : "Mật khẩu",
+    "Additional settings" : "Cài đặt bổ sung",
     "seconds" : "giây",
     "Failed to save settings" : "Lưu cấu hình thất bại"
 },
