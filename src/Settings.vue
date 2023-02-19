@@ -9,7 +9,7 @@
 		<h3>{{t('openhab', 'Server settings')}}</h3>
 		<fieldset class="d-flex">
 			<label class="d-flex"><input type="radio" v-model="settings['server.type']" value="myopenhab" @change="onChange" />myopenhab.org</label>&nbsp;
-			<label class="d-flex"><input type="radio" v-model="settings['server.type']" value="custom" @change="onChange" />{{t('openhab', 'custom')}}</label>
+			<label class="d-flex"><input type="radio" v-model="settings['server.type']" value="custom" @change="onChange" />{{t('openhab', 'Custom')}}</label>
 		</fieldset>
 
 		<fieldset v-if="settings['server.type'] === 'custom'">
