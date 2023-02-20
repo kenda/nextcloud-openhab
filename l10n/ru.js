@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Не удалось загрузить настройки",
     "Server settings" : "Настройки сервера",
+    "Custom" : "Задать",
     "Server URL" : "URL сервера",
     "Username" : "Имя пользователя",
     "Password" : "Пароль",

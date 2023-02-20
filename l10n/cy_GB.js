@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Custom" : "Cyfaddas",
     "Username" : "Enw defnyddiwr",
     "Password" : "Cyfrinair",
     "seconds" : "eiliad"

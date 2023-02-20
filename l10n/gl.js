@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Produciuse un fallo ao cargar os axustes",
     "Server settings" : "Axustes do servidor",
+    "Custom" : "Personalizado",
     "Server URL" : "URL do servidor",
     "Username" : "Nome de usuario",
     "Password" : "Contrasinal",

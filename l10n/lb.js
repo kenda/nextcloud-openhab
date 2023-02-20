@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Custom" : "Individualiséier",
     "Username" : "Benotzernumm",
     "Password" : "Passwuert",
     "seconds" : "Sekonnen"

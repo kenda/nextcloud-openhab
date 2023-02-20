@@ -10,7 +10,7 @@ OC.L10N.register(
     "Could not fetch sitemaps" : "無法擷取網站地圖",
     "Failed to load settings" : "載入設定失敗",
     "Server settings" : "伺服器設定",
-    "custom" : "自訂",
+    "Custom" : "自訂",
     "Server URL" : "伺服器 URL",
     "Ignore SSL issues?" : "不理會 SSL 問題？",
     "Username" : "用戶名稱",

@@ -2,6 +2,7 @@ OC.L10N.register(
     "openhab",
     {
     "Server settings" : "Paramètres del servidor",
+    "Custom" : "Personalizar",
     "Username" : "Nom d'utilizaire",
     "Password" : "Senhal",
     "Additional settings" : "Paramètres addicionals",

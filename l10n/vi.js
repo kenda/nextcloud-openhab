@@ -2,6 +2,7 @@ OC.L10N.register(
     "openhab",
     {
     "Failed to load settings" : "Tải cấu hình thất bại",
+    "Custom" : "Tùy chỉnh",
     "Server URL" : "URL máy chủ",
     "Username" : "Tên đăng nhập",
     "Password" : "Mật khẩu",

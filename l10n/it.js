@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Caricamento impostazioni non riuscito",
     "Server settings" : "Impostazioni server",
+    "Custom" : "Personalizzato",
     "Server URL" : "URL del server",
     "Username" : "Nome utente",
     "Password" : "Password",

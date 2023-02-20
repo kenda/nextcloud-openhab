@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Custom" : "Particularizat",
     "Server URL" : "URL Server",
     "Username" : "Nume utilizator",
     "Password" : "Parolă",

@@ -8,6 +8,7 @@
     "Could not fetch sitemaps" : "無法擷取站點地圖",
     "Failed to load settings" : "設定載入失敗",
     "Server settings" : "伺服器設定",
+    "Custom" : "自訂",
     "Server URL" : "伺服器 URL",
     "Ignore SSL issues?" : "忽略 SSL 問題？",
     "Username" : "使用者名稱",

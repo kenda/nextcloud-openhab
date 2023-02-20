@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Nepavyko įkelti nustatymų",
     "Server settings" : "Serverio nustatymai",
+    "Custom" : "Tinkinti",
     "Server URL" : "Serverio URL",
     "Username" : "Naudotojo vardas",
     "Password" : "Slaptažodis",

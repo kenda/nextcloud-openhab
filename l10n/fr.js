@@ -10,7 +10,7 @@ OC.L10N.register(
     "Could not fetch sitemaps" : "Impossible de récupérer les plans",
     "Failed to load settings" : "Echec du chargement des paramètres",
     "Server settings" : "Paramètres du serveur",
-    "custom" : "personnalisé",
+    "Custom" : "Personnalisé",
     "Server URL" : "URL du serveur",
     "Ignore SSL issues?" : "Ignorer les problèmes SSL ?",
     "Username" : "Nom d'utilisateur",

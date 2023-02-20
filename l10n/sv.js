@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Kunde inte läsa in inställningar",
     "Server settings" : "Serverinställningar",
+    "Custom" : "Anpassad",
     "Server URL" : "Serverwebbadress",
     "Username" : "Användarnamn",
     "Password" : "Lösenord",

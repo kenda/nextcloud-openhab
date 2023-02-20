@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Ha fallat carregar la configuració",
     "Server settings" : "Paràmetres del servidor",
+    "Custom" : "Personalitzat",
     "Server URL" : "URL del servidor",
     "Username" : "Nom d'usuari",
     "Password" : "Contrasenya",

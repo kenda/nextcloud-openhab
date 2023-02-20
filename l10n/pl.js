@@ -10,7 +10,7 @@ OC.L10N.register(
     "Could not fetch sitemaps" : "Nie można pobrać map witryn",
     "Failed to load settings" : "Nie udało się wczytać ustawień",
     "Server settings" : "Ustawienia serwera",
-    "custom" : "Dowolne",
+    "Custom" : "Dowolnie",
     "Server URL" : "Adres URL serwera",
     "Ignore SSL issues?" : "Ignorować problemy z SSL?",
     "Username" : "Nazwa użytkownika",

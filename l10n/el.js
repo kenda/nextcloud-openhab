@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Αποτυχία φόρτωσης ρυθμίσεων",
     "Server settings" : "Ρυθμίσεις διακομιστή",
+    "Custom" : "Προσαρμοσμένο",
     "Server URL" : "URL διακομιστή",
     "Username" : "Όνομα χρήστη",
     "Password" : "Συνθηματικό",

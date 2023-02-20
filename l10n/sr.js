@@ -6,6 +6,7 @@ OC.L10N.register(
     "Renders sitemaps of an Openhab instance." : "Исцртава мапу ОпенХаб инстанце",
     "Failed to load settings" : "Грешка у дохватању поставки",
     "Server settings" : "Поставке сервера",
+    "Custom" : "Прилагођено",
     "Server URL" : "Адреса сервера",
     "Username" : "Корисничко име",
     "Password" : "Лозинка",

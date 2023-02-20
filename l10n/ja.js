@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "設定の読込に失敗しました",
     "Server settings" : "サーバー設定",
+    "Custom" : "カスタム",
     "Server URL" : "サーバーURL",
     "Username" : "ユーザー名",
     "Password" : "パスワード",

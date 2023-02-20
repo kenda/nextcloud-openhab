@@ -10,7 +10,7 @@ OC.L10N.register(
     "Could not fetch sitemaps" : "Nem sikerült a helyszíntérképek lekérése",
     "Failed to load settings" : "A beállítások betöltése sikertelen",
     "Server settings" : "Kiszolgálóbeállítások",
-    "custom" : "egyéni",
+    "Custom" : "Egyéni",
     "Server URL" : "Kiszolgáló webcíme",
     "Ignore SSL issues?" : "Figyelmen kívül hagyja az SSL-problémákat?",
     "Username" : "Felhasználónév",

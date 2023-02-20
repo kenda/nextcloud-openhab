@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "환경설정 로딩 실패",
     "Server settings" : "서버 설정",
+    "Custom" : "사용자 정의",
     "Server URL" : "서버 URL",
     "Username" : "사용자 이름",
     "Password" : "암호",

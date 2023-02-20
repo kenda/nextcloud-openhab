@@ -2,6 +2,7 @@ OC.L10N.register(
     "openhab",
     {
     "Failed to load settings" : "Неуспешно вчитување на параметрите",
+    "Custom" : "Прилагодено",
     "Username" : "Корисничко име",
     "Password" : "Лозинка",
     "Additional settings" : "Дополнителни параметри",

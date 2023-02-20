@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Mistókst að hlaða inn stillingum",
     "Server settings" : "Stillingar þjóns",
+    "Custom" : "Sérsniðið",
     "Server URL" : "URL-slóð vefþjóns",
     "Username" : "Notandanafn",
     "Password" : "Lykilorð",

@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "טעינת ההגדרות נכשלה",
     "Server settings" : "הגדרות שרת",
+    "Custom" : "מותאם אישית",
     "Server URL" : "כתובת השרת",
     "Username" : "שם משתמש",
     "Password" : "ססמה",

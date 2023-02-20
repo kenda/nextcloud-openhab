@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Nalaganje nastavitev je spodletelo.",
     "Server settings" : "Nastavitve strežnika",
+    "Custom" : "Po meri",
     "Server URL" : "Naslov URL strežnika",
     "Username" : "Uporabniško ime",
     "Password" : "Geslo",

@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "No at fatuu a carrigare is impostatziones",
     "Server settings" : "Impostatziones de su serbidore",
+    "Custom" : "Personaliza",
     "Server URL" : "URL de su serbidore",
     "Username" : "Nùmene utente",
     "Password" : "Crae",

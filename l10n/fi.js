@@ -10,6 +10,7 @@ OC.L10N.register(
     "Could not fetch sitemaps" : "Sivustokarttoja ei voitu noutaa",
     "Failed to load settings" : "Asetusten lataaminen epäonnistui",
     "Server settings" : "Palvelinasetukset",
+    "Custom" : "Omavalintainen",
     "Server URL" : "Palvelimen osoite",
     "Ignore SSL issues?" : "Ohita SSL-ongelmat?",
     "Username" : "Käyttäjätunnus",

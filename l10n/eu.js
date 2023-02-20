@@ -8,7 +8,7 @@ OC.L10N.register(
     "Could not fetch sitemaps" : "Ezin izan dira sitemapak eskuratu",
     "Failed to load settings" : "Ezarpenak kargatzeak huts egin du",
     "Server settings" : "Zerbitzariaren ezarpenak",
-    "custom" : "pertsonalizatua",
+    "Custom" : "Pertsonalizatua",
     "Server URL" : "Zerbitzariaren URLa",
     "Ignore SSL issues?" : "Ezikusi SSL arazoak?",
     "Username" : "Erabiltzaile-izena",

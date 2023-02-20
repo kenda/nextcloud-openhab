@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Klarte ikke å laste inn innstillinger",
     "Server settings" : "Serverinnstillinger",
+    "Custom" : "Egendefinert",
     "Server URL" : "Server-URL",
     "Username" : "Brukernavn",
     "Password" : "Passord",
