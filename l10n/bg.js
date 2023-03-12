@@ -10,6 +10,7 @@ OC.L10N.register(
     "Could not fetch sitemaps" : "Не можаха да бъдат извлечени карти на сайта",
     "Failed to load settings" : "Неуспешно зареждане на настройки",
     "Server settings" : "Настройки на сървъра",
+    "Custom" : "Персонализиран",
     "Server URL" : "URL адрес на сървъра",
     "Ignore SSL issues?" : "Игнориране на проблемите със SSL?",
     "Username" : "Потребител",
