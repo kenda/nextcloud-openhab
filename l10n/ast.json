@@ -1,9 +1,5 @@
 { "translations": {
-    "Server settings" : "Axustes del sirvidor",
-    "Custom" : "Personalizáu",
-    "Username" : "Nome d'usuariu",
-    "Password" : "Password",
-    "Additional settings" : "Axustes adicionales",
-    "seconds" : "segundos"
+    "Password" : "Contraseña",
+    "Additional settings" : "Configuración adicional"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
