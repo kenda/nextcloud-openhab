@@ -1,5 +1,6 @@
 { "translations": {
     "Password" : "Contraseña",
-    "Additional settings" : "Configuración adicional"
+    "Additional settings" : "Configuración adicional",
+    "seconds" : "segundos"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
