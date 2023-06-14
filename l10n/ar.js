@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Failed to load settings" : "إخفاق في تحميل الإعدادات",
     "Server settings" : "إعدادات الخادم",
     "Custom" : "مخصّص",
     "Username" : "اسم المستخدم",
