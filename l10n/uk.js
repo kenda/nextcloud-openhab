@@ -13,7 +13,7 @@ OC.L10N.register(
     "Server URL" : "URL сервер",
     "Username" : "Ім'я користувача",
     "Password" : "Пароль",
-    "Additional settings" : "Додаткові",
+    "Additional settings" : "Додатково",
     "seconds" : "секунди",
     "Failed to save settings" : "Неможливо зберегти налаштування"
 },
