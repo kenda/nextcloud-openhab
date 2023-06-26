@@ -1,6 +1,7 @@
 { "translations": {
     "Username" : "İstifadəçi adı",
     "Password" : "Şifrə",
+    "Additional settings" : "Əlavə parametrlər",
     "seconds" : "saniyələr"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
