@@ -7,7 +7,7 @@ OC.L10N.register(
     "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Esta aplicación representa os mapas do sitio dispoñíbeis dunha instancia de servidor Openhab. Isto permítelle amosar os valores da súa casa intelixente en Nextcloud.",
     "Select a sitemap" : "Seleccione un mapa do sitio",
     "No sitemaps found. Check your config or create a sitemap." : "Non se atoparon mapas do sitio. Comprobe a súa configuración ou cree un mapa do sitio.",
-    "Could not fetch sitemaps" : "Non foi posíbel obter mapas do sitio",
+    "Could not fetch sitemaps" : "Non foi posíbel recuperar mapas do sitio",
     "Failed to load settings" : "Produciuse un fallo ao cargar os axustes",
     "Server settings" : "Axustes do servidor",
     "Custom" : "Personalizado",
