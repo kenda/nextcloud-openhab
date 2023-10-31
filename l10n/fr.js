@@ -8,7 +8,7 @@ OC.L10N.register(
     "Select a sitemap" : "Sélectionnez un plan",
     "No sitemaps found. Check your config or create a sitemap." : "Pas de plan trouvé. Vérifiez votre configuration ou créez un plan.",
     "Could not fetch sitemaps" : "Impossible de récupérer les plans",
-    "Failed to load settings" : "Echec du chargement des paramètres",
+    "Failed to load settings" : "Échec du chargement des paramètres",
     "Server settings" : "Paramètres du serveur",
     "Custom" : "Personnalisé",
     "Server URL" : "URL du serveur",
@@ -18,6 +18,6 @@ OC.L10N.register(
     "Additional settings" : "Paramètres supplémentaires",
     "Refresh interval" : "Intervalle de rafraichissement",
     "seconds" : "secondes",
-    "Failed to save settings" : "Echec de la sauvegarde des paramètres"
+    "Failed to save settings" : "Échec de la sauvegarde des paramètres"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
