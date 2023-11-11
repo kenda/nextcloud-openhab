@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Openhab" : "Openhab",
     "Failed to load settings" : "Caricamento impostazioni non riuscito",
     "Server settings" : "Impostazioni server",
     "Custom" : "Personalizzato",

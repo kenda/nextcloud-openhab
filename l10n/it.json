@@ -1,4 +1,5 @@
 { "translations": {
+    "Openhab" : "Openhab",
     "Failed to load settings" : "Caricamento impostazioni non riuscito",
     "Server settings" : "Impostazioni server",
     "Custom" : "Personalizzato",
