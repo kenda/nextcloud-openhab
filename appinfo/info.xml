@@ -14,8 +14,8 @@
     <screenshot>https://raw.githubusercontent.com/kenda/nextcloud-openhab/master/screenshots/overview.png</screenshot>
     <screenshot>https://raw.githubusercontent.com/kenda/nextcloud-openhab/master/screenshots/dashboard.png</screenshot>
     <dependencies>
-        <nextcloud min-version="12" max-version="26"/>
-        <php min-version="7.3" max-version="8.1"/>
+        <nextcloud min-version="12" max-version="28"/>
+        <php min-version="7.3" max-version="8.2"/>
     </dependencies>
     <navigations>
         <navigation>
