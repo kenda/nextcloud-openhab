@@ -38,7 +38,7 @@ class PageController extends Controller {
      * @NoAdminRequired
      */
     public function getSitemaps() {
-        return $this->apiService->sendRequest('/rest/sitemaps');
+        return $this->apiService->sendRequest('/rest/sitemaps', 'Get sitemaps for overview');
     }
 
      /**
@@ -47,7 +47,7 @@ class PageController extends Controller {
       * @param string $id
       */
      public function getSitemap(string $id) {
-         return $this->apiService->sendRequest('/rest/sitemaps/' . $id);
+         return $this->apiService->sendRequest('/rest/sitemaps/' . $id, 'Get config for sitemap "' . $id . '"' );
      }
 
 	/**
@@ -56,6 +56,6 @@ class PageController extends Controller {
       * @param string $id
       */
      public function getItemPersistence(string $item) {
-         return $this->apiService->sendRequest('/rest/persistence/items/' . $item);
+         return $this->apiService->sendRequest('/rest/persistence/items/' . $item, 'Get data for item "' . $item . '"');
      }
 }

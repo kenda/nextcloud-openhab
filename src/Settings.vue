@@ -107,7 +107,9 @@ export default {
 		async submit() {
 			this.loading = true
 			try {
-				await axios.put(generateUrl('/apps/openhab/settings'), this.settings)
+				await axios.put(generateUrl('/apps/openhab/settings'), {
+					settings: this.settings,
+				})
 				this.success = true;
 			} catch (e) {
 				showError(this.t('openhab', 'Failed to save settings'))

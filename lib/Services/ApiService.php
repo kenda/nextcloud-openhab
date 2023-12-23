@@ -4,13 +4,18 @@ namespace OCA\Openhab\Services;
 
 use OCP\IRequest;
 use OCP\IConfig;
+use Psr\Log\LoggerInterface;
 
 class ApiService {
 
 	private $server;
 
+	protected $logger;
+
     public function __construct($appName,
-								IConfig $config) {
+								IConfig $config,
+								LoggerInterface $logger) {
+		$this->logger = $logger;
 
 		$this->server = [
 			'url' => $config->getAppValue('openhab', 'server.url', 'http://localhost:8080'),
@@ -21,7 +26,7 @@ class ApiService {
 		];
     }
 
-	public function sendRequest(string $path) {
+	public function sendRequest(string $path, string $description) {
 		$ch = curl_init();
 
 		$host = $this->server['url'];
@@ -33,6 +38,7 @@ class ApiService {
 		curl_setopt($ch, CURLOPT_TIMEOUT, 10);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+		curl_setopt($ch, CURLOPT_HEADER, 1);
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array(
 			"Accept: application/json"
 		));
@@ -46,9 +52,26 @@ class ApiService {
 			curl_setopt($ch, CURLOPT_USERPWD, $this->server['username'] . ':' . $this->server['password']);
 		}
 
+		$this->logger->debug($description . " - request send", curl_getinfo($ch));
+
 		$data = curl_exec($ch);
+		$header_size = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
+		$headers = substr($data, 0, $header_size);
+		$body = substr($data, $header_size);
+
+		$this->logger->debug($description . " - response headers", explode("\r\n", $headers));
+		if ($body != null) {
+			$this->logger->debug($description . " - response body", json_decode($body, true));
+		}
+
+		if (curl_errno($ch)) {
+			$this->logger->error($description . " - error while api request", [0 => curl_error($ch)]);
+		} else {
+			$this->logger->debug($description . " - request successful");
+		}
+
 		curl_close($ch);
 
-		return json_decode($data);
+		return json_decode($body);
 	}
 }
