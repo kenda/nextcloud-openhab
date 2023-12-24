@@ -5,7 +5,7 @@
 				<NcAppNavigationItem
 					v-for="sitemap in sitemaps"
 					:key="sitemap.name"
-					:title="sitemap.label"
+					:name="sitemap.label"
 					@click="open(sitemap.name)" />
 			</ul>
 		</NcAppNavigation>

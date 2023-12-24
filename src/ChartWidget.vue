@@ -7,7 +7,8 @@
 <script>
 import axios from '@nextcloud/axios'
 import { generateUrl } from '@nextcloud/router'
-import Chart from 'chart.js'
+import { Chart, CategoryScale, LineController, LineElement, PointElement, Legend, LinearScale, TimeScale, Title } from 'chart.js'
+import 'chartjs-adapter-date-fns';
 
 import ItemService from './ItemService'
 
@@ -31,12 +32,15 @@ export default {
 	},
 	async mounted() {
 		const response = await axios.get(generateUrl('/apps/openhab/persistence/') + this.config.item.name)
-		const data = response.data.data.map(item => ({ t: item.time, y: item.state }))
+		const data = response.data.data.map(item => ({ x: item.time, y: item.state }))
 		this.createChart(this.config.item.name, data)
 	},
 	methods: {
 		createChart(chartId, data) {
+			Chart.register(CategoryScale, Legend, LineController, LineElement, PointElement, LinearScale, TimeScale, Title);
+
 			const ctx = document.getElementById(chartId)
+console.log(data);
 			const chart = new Chart(ctx, {
 				type: 'line',
 				data: {
@@ -51,16 +55,15 @@ export default {
 				},
 				options: {
 					scales: {
-						xAxes: [{
+						x: {
 							type: 'time',
 							time: {
 								unit: 'hour',
 							},
-							gridLines: {
+							grid: {
 								display: false,
 							},
-						}],
-						responsive: false,
+						},
 					},
 					tooltips: {
 						intersect: false,
