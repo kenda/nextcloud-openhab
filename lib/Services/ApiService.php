@@ -49,7 +49,7 @@ class ApiService {
 		}
 
 		if ($this->server['type'] == 'myopenhab') {
-			curl_setopt($ch, CURLOPT_USERPWD, $this->server['username'] . ':' . $this->server['password']);
+			curl_setopt($ch, CURLOPT_USERPWD, trim($this->server['username']) . ':' . $this->server['password']);
 		}
 
 		$this->logger->debug($description . " - request send", curl_getinfo($ch));
