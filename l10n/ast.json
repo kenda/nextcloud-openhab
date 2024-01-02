@@ -1,4 +1,5 @@
 { "translations": {
+    "Custom" : "Personalizar",
     "Password" : "Contraseña",
     "Additional settings" : "Configuración adicional",
     "seconds" : "segundos"
