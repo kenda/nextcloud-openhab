@@ -4,7 +4,7 @@ OC.L10N.register(
     "Openhab Viewer" : "Переглядач Openhab",
     "Openhab" : "Openhab",
     "Renders sitemaps of an Openhab instance." : "Відтворює мапу сайту сервера Openhab.",
-    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Ця програма відтворює доступні мапи сайту серверів Openhab. Ви матимете доступ до показників даних вашого розумного будинку у хмарі Nextcloud.",
+    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Цей застосунок відтворює доступні мапи сайту серверів Openhab. Ви матимете доступ до показників даних вашого розумного будинку у хмарі Nextcloud.",
     "Select a sitemap" : "Виберіть карту сайту",
     "No sitemaps found. Check your config or create a sitemap." : "Карти сайту не знайдено. Перевірте свою конфігурацію або створіть карту сайту.",
     "Could not fetch sitemaps" : "Не вдалося отримати карти сайту",
