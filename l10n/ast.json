@@ -1,5 +1,6 @@
 { "translations": {
     "Custom" : "Personalizar",
+    "Server URL" : "URL del sirividor",
     "Password" : "Contraseña",
     "Additional settings" : "Configuración adicional",
     "seconds" : "segundos"
