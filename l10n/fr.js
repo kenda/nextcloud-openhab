@@ -13,7 +13,7 @@ OC.L10N.register(
     "Custom" : "Personnalisé",
     "Server URL" : "URL du serveur",
     "Ignore SSL issues?" : "Ignorer les problèmes SSL ?",
-    "Username" : "Nom d'utilisateur",
+    "Username" : "Nom d’utilisateur",
     "Password" : "Mot de passe",
     "Additional settings" : "Paramètres supplémentaires",
     "Refresh interval" : "Intervalle de rafraichissement",
