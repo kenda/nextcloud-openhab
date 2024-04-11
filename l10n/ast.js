@@ -4,6 +4,7 @@ OC.L10N.register(
     "Failed to load settings" : "Nun se pue cargar la configuración",
     "Custom" : "Personalizar",
     "Server URL" : "URL del sirividor",
+    "Username" : "Nome d'usuariu",
     "Password" : "Contraseña",
     "Additional settings" : "Configuración adicional",
     "seconds" : "segundos",
