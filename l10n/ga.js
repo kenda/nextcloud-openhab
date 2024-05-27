@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Custom" : "Saincheaptha",
     "Username" : "Ainm úsáideora",
     "Password" : "Pasfhocal",
     "Additional settings" : "Socruithe breise"
