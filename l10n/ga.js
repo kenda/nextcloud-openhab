@@ -3,6 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Theip ar lódáil na socruithe",
     "Custom" : "Saincheaptha",
+    "Server URL" : "URL an fhreastalaí",
     "Username" : "Ainm úsáideora",
     "Password" : "Pasfhocal",
     "Additional settings" : "Socruithe breise",
