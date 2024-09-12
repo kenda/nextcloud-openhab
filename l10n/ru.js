@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Это приложение отображает доступные карты сайта экземпляра сервера Openhab. Это позволяет отображать значения из вашего умного дома в Nextcloud.",
     "Failed to load settings" : "Не удалось загрузить настройки",
     "Server settings" : "Настройки сервера",
     "Custom" : "Задать",
