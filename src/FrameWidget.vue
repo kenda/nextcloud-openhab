@@ -34,5 +34,6 @@ export default {
 
 .frame h2 {
 	font-weight: 500;
+    margin-top: 0px;
 }
 </style>

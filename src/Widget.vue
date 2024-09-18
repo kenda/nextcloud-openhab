@@ -6,7 +6,7 @@
 			<SwitchWidget v-if="config.type === 'Switch'" :config="config" class="entry-wrapper" />
 			<ChartWidget v-if="config.type === 'Chart'" :config="config" class="entry-wrapper" />
 			<ColorpickerWidget v-if="config.type === 'Colorpicker'" :config="config" class="entry-wrapper" />
-			<!--<GroupWidget v-if="config.type === 'Group'" :config="config" class="entry-wrapper" />-->
+			<GroupWidget v-if="config.type === 'Group'" :config="config" class="entry-wrapper" />
 		</div>
 		<div v-if="config.linkedPage" class="entry-wrapper group-wrapper">
 			<div class="group-header" @click="expand = !expand">
@@ -15,6 +15,7 @@
 					:class="{ 'icon-triangle-e': expand === false, 'icon-triangle-s': expand === true }" />
 				<TextWidget v-if="config.type === 'Text'" :config="config" />
 				<SwitchWidget v-else-if="config.type === 'Switch'" :config="config" />
+				<GroupWidget v-else-if="config.type === 'Group'" :config="config" />
 				<span v-else>{{ config.label }}</span>
 			</div>
 			<div v-if="expand && config.linkedPage.widgets.length">
@@ -28,6 +29,7 @@
 import ChartWidget from './ChartWidget'
 import ColorpickerWidget from './ColorpickerWidget'
 import FrameWidget from './FrameWidget'
+import GroupWidget from './GroupWidget'
 import SwitchWidget from './SwitchWidget'
 import TextWidget from './TextWidget'
 
@@ -37,6 +39,7 @@ export default {
 		ChartWidget,
 		ColorpickerWidget,
 		FrameWidget,
+		GroupWidget,
 		SwitchWidget,
 		TextWidget,
 	},
