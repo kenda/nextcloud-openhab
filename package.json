@@ -1,6 +1,6 @@
 {
 	"name": "openhab",
-	"version": "0.13.4",
+	"version": "0.14.0",
 	"author": "Marcus Nitzschke <mail@kendix.org>",
 	"license": "agpl",
 	"private": true,
@@ -15,12 +15,12 @@
 	},
 	"dependencies": {
 		"@nextcloud/axios": "^2.4.0",
-		"@nextcloud/dialogs": "^5.0.3",
-		"@nextcloud/router": "^2.0.0",
+		"@nextcloud/dialogs": "^5.3.7",
+		"@nextcloud/router": "^3.0.1",
 		"@nextcloud/vue": "^8.3.0",
-		"chart.js": "^4.4.1",
+		"chart.js": "^4.4.4",
 		"chartjs-adapter-date-fns": "^3.0.0",
-		"date-fns": "^3.0.6",
+		"date-fns": "^4.1.0",
 		"vue": "^2.7.16",
 		"vue-router": "^3.6.5"
 	},
@@ -32,10 +32,10 @@
 		"npm": ">=7.0.0"
 	},
 	"devDependencies": {
-		"@nextcloud/babel-config": "^1.0.0",
-		"@nextcloud/browserslist-config": "^3.0.0",
-		"@nextcloud/eslint-config": "^8.3.0",
+		"@nextcloud/babel-config": "^1.2.0",
+		"@nextcloud/browserslist-config": "^3.0.1",
+		"@nextcloud/eslint-config": "^8.4.1",
 		"@nextcloud/stylelint-config": "^2.3.1",
-		"@nextcloud/webpack-vue-config": "^6.0.0"
+		"@nextcloud/webpack-vue-config": "^6.1.0"
 	}
 }
