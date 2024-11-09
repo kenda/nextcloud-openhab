@@ -10,7 +10,7 @@ OC.L10N.register(
     "Could not fetch sitemaps" : "لم يُمكن استجلاب خرائط مواقع",
     "Failed to load settings" : "فشل في تحميل الإعدادات",
     "Server settings" : "إعدادات الخادم",
-    "Custom" : "مُخصّص",
+    "Custom" : "مخصص",
     "Server URL" : "عنوان URL الخادم",
     "Ignore SSL issues?" : "تجاهل إشكاليات SSL؟",
     "Username" : "إسم المستخدم",
