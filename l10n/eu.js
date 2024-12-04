@@ -14,6 +14,7 @@ OC.L10N.register(
     "Username" : "Erabiltzaile-izena",
     "Password" : "Pasahitza",
     "Additional settings" : "Ezarpen gehiago",
+    "Refresh interval" : "Freskatze tartea",
     "seconds" : "segundo",
     "Failed to save settings" : "Ezarpenak gordetzeak huts egin du"
 },
