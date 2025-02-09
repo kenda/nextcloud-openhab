@@ -3,7 +3,7 @@ OC.L10N.register(
     {
     "Failed to load settings" : "Fejl ved indlæsning af indstillinger",
     "Server settings" : "Serverindstillinger",
-    "Custom" : "Valgfrit",
+    "Custom" : "Brugerdefineret",
     "Server URL" : "Server URL",
     "Username" : "Brugernavn",
     "Password" : "Adgangskode",
