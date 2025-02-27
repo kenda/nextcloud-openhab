@@ -3,16 +3,16 @@
     "Openhab" : "Openhab",
     "Renders sitemaps of an Openhab instance." : "Відтворює мапу сайту сервера Openhab.",
     "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Цей застосунок відтворює доступні мапи сайту серверів Openhab. Ви матимете доступ до показників даних вашого розумного будинку у хмарі Nextcloud.",
-    "Select a sitemap" : "Виберіть карту сайту",
-    "No sitemaps found. Check your config or create a sitemap." : "Карти сайту не знайдено. Перевірте свою конфігурацію або створіть карту сайту.",
     "Could not fetch sitemaps" : "Не вдалося отримати карти сайту",
     "Failed to load settings" : "Не вдалося завантажити налаштування",
+    "Select a sitemap" : "Виберіть карту сайту",
+    "No sitemaps found. Check your config or create a sitemap." : "Карти сайту не знайдено. Перевірте свою конфігурацію або створіть карту сайту.",
+    "Failed to save settings" : "Неможливо зберегти налаштування",
     "Custom" : "Користувацьке",
     "Server URL" : "URL сервер",
     "Username" : "Ім'я користувача",
     "Password" : "Пароль",
     "Additional settings" : "Додатково",
-    "seconds" : "секунди",
-    "Failed to save settings" : "Неможливо зберегти налаштування"
+    "seconds" : "секунди"
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);"
 }

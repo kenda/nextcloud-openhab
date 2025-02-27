@@ -1,11 +1,11 @@
 OC.L10N.register(
     "openhab",
     {
+    "Failed to save settings" : "Gagal simpan setelan",
     "Server URL" : "URL Server",
     "Username" : "Username",
     "Password" : "Kata sandi",
     "Additional settings" : "Setelan tambahan",
-    "seconds" : "detik",
-    "Failed to save settings" : "Gagal simpan setelan"
+    "seconds" : "detik"
 },
 "nplurals=1; plural=0;");

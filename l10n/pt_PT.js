@@ -1,11 +1,11 @@
 OC.L10N.register(
     "openhab",
     {
+    "Failed to save settings" : "Erro ao gravar as definições",
     "Custom" : "Personalizado",
     "Username" : "Nome de utilizador",
     "Password" : "Palavra-passe",
     "Additional settings" : "Definições adicionais",
-    "seconds" : "segundos",
-    "Failed to save settings" : "Erro ao gravar as definições"
+    "seconds" : "segundos"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

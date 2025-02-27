@@ -5,10 +5,11 @@ OC.L10N.register(
     "Openhab" : "Openhab",
     "Renders sitemaps of an Openhab instance." : "Bir Openhab kopyasının site haritalarını oluşturur.",
     "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Bu uygulama, bir Openhab sunucu kopyasında var olan site haritalarını oluşturur. Bu uygulama ile, Nextcloud üzerindeki akıllı evinizin değerlerini görüntüleyebilirsiniz.",
-    "Select a sitemap" : "Bir site haritası seçin",
-    "No sitemaps found. Check your config or create a sitemap." : "Herhangi bir site haritası bulunamadı. Yapılandırmanızı denetleyin ya da bir site haritası oluşturun.",
     "Could not fetch sitemaps" : "Site haritaları alınamadı",
     "Failed to load settings" : "Ayarlar yüklenemedi",
+    "Select a sitemap" : "Bir site haritası seçin",
+    "No sitemaps found. Check your config or create a sitemap." : "Herhangi bir site haritası bulunamadı. Yapılandırmanızı denetleyin ya da bir site haritası oluşturun.",
+    "Failed to save settings" : "Ayarlar kaydedilemedi",
     "Server settings" : "Sunucu ayarları",
     "Custom" : "Özel",
     "Server URL" : "Sunucu adresi",
@@ -17,7 +18,6 @@ OC.L10N.register(
     "Password" : "Parola",
     "Additional settings" : "Ek ayarlar",
     "Refresh interval" : "Yenileme sıklığı",
-    "seconds" : "saniye",
-    "Failed to save settings" : "Ayarlar kaydedilemedi"
+    "seconds" : "saniye"
 },
 "nplurals=2; plural=(n > 1);");

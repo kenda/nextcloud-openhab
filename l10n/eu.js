@@ -3,10 +3,11 @@ OC.L10N.register(
     {
     "Openhab Viewer" : "Openhab ikustailea",
     "Openhab" : "Openhab",
-    "Select a sitemap" : "Aukeratu sitemap bat",
-    "No sitemaps found. Check your config or create a sitemap." : "Ez da sitemapik aurkitu. Egiaztatu zure konfigurazioa edo sortu sitemap bat.",
     "Could not fetch sitemaps" : "Ezin izan dira sitemapak eskuratu",
     "Failed to load settings" : "Ezarpenak kargatzeak huts egin du",
+    "Select a sitemap" : "Aukeratu sitemap bat",
+    "No sitemaps found. Check your config or create a sitemap." : "Ez da sitemapik aurkitu. Egiaztatu zure konfigurazioa edo sortu sitemap bat.",
+    "Failed to save settings" : "Ezarpenak gordetzeak huts egin du",
     "Server settings" : "Zerbitzariaren ezarpenak",
     "Custom" : "Pertsonalizatua",
     "Server URL" : "Zerbitzariaren URLa",
@@ -15,7 +16,6 @@ OC.L10N.register(
     "Password" : "Pasahitza",
     "Additional settings" : "Ezarpen gehiago",
     "Refresh interval" : "Freskatze tartea",
-    "seconds" : "segundo",
-    "Failed to save settings" : "Ezarpenak gordetzeak huts egin du"
+    "seconds" : "segundo"
 },
 "nplurals=2; plural=(n != 1);");

@@ -1,12 +1,12 @@
 { "translations": {
     "Failed to load settings" : "환경설정 로딩 실패",
+    "Failed to save settings" : "환경설정 저장 실패",
     "Server settings" : "서버 설정",
     "Custom" : "사용자 정의",
     "Server URL" : "서버 URL",
     "Username" : "사용자 이름",
     "Password" : "암호",
     "Additional settings" : "고급 설정",
-    "seconds" : "초",
-    "Failed to save settings" : "환경설정 저장 실패"
+    "seconds" : "초"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

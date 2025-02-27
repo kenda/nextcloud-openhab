@@ -5,10 +5,11 @@ OC.L10N.register(
     "Openhab" : "Openhab",
     "Renders sitemaps of an Openhab instance." : "Vykresluje mapy lokalit z instance Openhab.",
     "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Tato aplikace vykresluje dostupné mapy lokalit z instance Openhab serveru. Tím umožňuje zobrazovat hodnoty z chytré domácnosti v Nextcloud.",
-    "Select a sitemap" : "Vyberte mapu lokality",
-    "No sitemaps found. Check your config or create a sitemap." : "Nenalezeny žádné mapy lokalit. Zkontrolujte nastavení nebo takovou mapu vytvořte.",
     "Could not fetch sitemaps" : "Nedaří se získat mapy lokalit",
     "Failed to load settings" : "Nepodařilo se načíst nastavení",
+    "Select a sitemap" : "Vyberte mapu lokality",
+    "No sitemaps found. Check your config or create a sitemap." : "Nenalezeny žádné mapy lokalit. Zkontrolujte nastavení nebo takovou mapu vytvořte.",
+    "Failed to save settings" : "Nastavení se nepodařilo uložit",
     "Server settings" : "Nastavení serveru",
     "Custom" : "Uživatelsky určený",
     "Server URL" : "URL adresa serveru",
@@ -17,7 +18,6 @@ OC.L10N.register(
     "Password" : "Heslo",
     "Additional settings" : "Další nastavení",
     "Refresh interval" : "Interval obnovy",
-    "seconds" : "sekund",
-    "Failed to save settings" : "Nastavení se nepodařilo uložit"
+    "seconds" : "sekund"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");

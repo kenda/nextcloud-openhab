@@ -5,10 +5,11 @@ OC.L10N.register(
     "Openhab" : "Openhab",
     "Renders sitemaps of an Openhab instance." : "Rendert Sitemaps einer Openhab-Instanz.",
     "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Diese App rendert die verfügbaren Sitemaps einer Openhab-Serverinstanz. Damit kannst du dir Werte aus deinem Smart Home in der Nextcloud anzeigen lassen.",
-    "Select a sitemap" : "Eine Sitemap auswählen",
-    "No sitemaps found. Check your config or create a sitemap." : "Keine Sitemaps gefunden. Überprüfe deine Konfiguration oder erstelle  eine Sitemap.",
     "Could not fetch sitemaps" : "Sitemaps konnten nicht abgerufen werden.",
     "Failed to load settings" : "Einstellungen konnten nicht geladen werden",
+    "Select a sitemap" : "Eine Sitemap auswählen",
+    "No sitemaps found. Check your config or create a sitemap." : "Keine Sitemaps gefunden. Überprüfe deine Konfiguration oder erstelle  eine Sitemap.",
+    "Failed to save settings" : "Einstellungen konnten nicht gespeichert werden",
     "Server settings" : "Servereinstellungen",
     "Custom" : "Benutzerdefiniert",
     "Server URL" : "Server-URL",
@@ -17,7 +18,6 @@ OC.L10N.register(
     "Password" : "Passwort",
     "Additional settings" : "Zusätzliche Einstellungen",
     "Refresh interval" : "Aktualisierungsintervall",
-    "seconds" : "Sekunden",
-    "Failed to save settings" : "Einstellungen konnten nicht gespeichert werden"
+    "seconds" : "Sekunden"
 },
 "nplurals=2; plural=(n != 1);");

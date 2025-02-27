@@ -1,11 +1,11 @@
 { "translations": {
     "Failed to load settings" : "Tải cấu hình thất bại",
+    "Failed to save settings" : "Lưu cấu hình thất bại",
     "Custom" : "Tùy chỉnh",
     "Server URL" : "URL máy chủ",
     "Username" : "Tên đăng nhập",
     "Password" : "Mật khẩu",
     "Additional settings" : "Cài đặt bổ sung",
-    "seconds" : "giây",
-    "Failed to save settings" : "Lưu cấu hình thất bại"
+    "seconds" : "giây"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

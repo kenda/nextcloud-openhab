@@ -5,10 +5,11 @@ OC.L10N.register(
     "Openhab" : "Openhab",
     "Renders sitemaps of an Openhab instance." : "Визуализира/рендерира/ карти на сайта на екземпляр на Openhab.",
     "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Това приложение визуализира наличните карти на сайта на сървърен екземпляр на Openhab. Това ви позволява да показвате стойности от вашия интелигентен дом в Nextcloud.",
-    "Select a sitemap" : "Избор на карта на сайта",
-    "No sitemaps found. Check your config or create a sitemap." : "Няма намерени карти на сайта. Проверете конфигурацията си или създайте карта на сайта.",
     "Could not fetch sitemaps" : "Не можаха да бъдат извлечени карти на сайта",
     "Failed to load settings" : "Неуспешно зареждане на настройки",
+    "Select a sitemap" : "Избор на карта на сайта",
+    "No sitemaps found. Check your config or create a sitemap." : "Няма намерени карти на сайта. Проверете конфигурацията си или създайте карта на сайта.",
+    "Failed to save settings" : "Неуспешно запазване на настройките",
     "Server settings" : "Настройки на сървъра",
     "Custom" : "Персонализиран",
     "Server URL" : "URL адрес на сървъра",
@@ -17,7 +18,6 @@ OC.L10N.register(
     "Password" : "Парола",
     "Additional settings" : "Допълнителни настройки",
     "Refresh interval" : "Интервал на обновяване",
-    "seconds" : "секунди",
-    "Failed to save settings" : "Неуспешно запазване на настройките"
+    "seconds" : "секунди"
 },
 "nplurals=2; plural=(n != 1);");

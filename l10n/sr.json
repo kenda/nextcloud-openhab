@@ -3,10 +3,11 @@
     "Openhab" : "ОпенХаб",
     "Renders sitemaps of an Openhab instance." : "Исцртава мапу ОпенХаб инстанце",
     "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Ова апликација приказује доступне мапе места на инстанци Openhab сервера. Ово вам омогућава да у Nextcloud прикажете вредности из вашег паметног дома.",
-    "Select a sitemap" : "Изаберите мапу места",
-    "No sitemaps found. Check your config or create a sitemap." : "Није пронађена ниједна мапа места. Проверите своја подешавања или креирајте мапу места.",
     "Could not fetch sitemaps" : "Не могу да се добаве мапе места",
     "Failed to load settings" : "Грешка у дохватању поставки",
+    "Select a sitemap" : "Изаберите мапу места",
+    "No sitemaps found. Check your config or create a sitemap." : "Није пронађена ниједна мапа места. Проверите своја подешавања или креирајте мапу места.",
+    "Failed to save settings" : "Грешка приликом чувања поставки",
     "Server settings" : "Поставке сервера",
     "Custom" : "Прилагођено",
     "Server URL" : "Адреса сервера",
@@ -15,7 +16,6 @@
     "Password" : "Лозинка",
     "Additional settings" : "Додатне поставке",
     "Refresh interval" : "Интервал освежавања",
-    "seconds" : "секунди",
-    "Failed to save settings" : "Грешка приликом чувања поставки"
+    "seconds" : "секунди"
 },"pluralForm" :"nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
 }

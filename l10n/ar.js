@@ -5,10 +5,11 @@ OC.L10N.register(
     "Openhab" : "\"أوبن هاب\" Openhab Viewer",
     "Renders sitemaps of an Openhab instance." : "يعرض خريطة موقع خادوم Openhab.",
     "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "هذا التطبيق يعرض الخرائط المتاحة لخادوم \"أوبن هاب\" Openhab. و هذا يُمكّنك من عرض قيم من منزلك الذكي في نكست كلاود.",
-    "Select a sitemap" : "اختر خريطة موقع",
-    "No sitemaps found. Check your config or create a sitemap." : "لم يُمكن إيجاد أي خرائط لمواقع. رجاءً، راجع أعداداتك أو إنشيء خريطةً.",
     "Could not fetch sitemaps" : "لم يُمكن استجلاب خرائط مواقع",
     "Failed to load settings" : "فشل في تحميل الإعدادات",
+    "Select a sitemap" : "اختر خريطة موقع",
+    "No sitemaps found. Check your config or create a sitemap." : "لم يُمكن إيجاد أي خرائط لمواقع. رجاءً، راجع أعداداتك أو إنشيء خريطةً.",
+    "Failed to save settings" : "فشل حفظ الإعدادات",
     "Server settings" : "إعدادات الخادم",
     "Custom" : "مخصص",
     "Server URL" : "عنوان URL الخادم",
@@ -17,7 +18,6 @@ OC.L10N.register(
     "Password" : "كلمة المرور",
     "Additional settings" : "الإعدادات المتقدمة",
     "Refresh interval" : "الفاصل الزمني للتحديث",
-    "seconds" : "ثواني",
-    "Failed to save settings" : "فشل حفظ الإعدادات"
+    "seconds" : "ثواني"
 },
 "nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;");

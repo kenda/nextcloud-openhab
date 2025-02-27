@@ -5,10 +5,11 @@ OC.L10N.register(
     "Openhab" : "Openhab",
     "Renders sitemaps of an Openhab instance." : "呈現 Openhab 實例的網站地圖。",
     "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "此應用程式呈現 Openhab 伺服器實例的可用網站地圖。這讓您可以在 Nextcloud 中顯示智慧型家居的值。",
-    "Select a sitemap" : "選擇網站地圖",
-    "No sitemaps found. Check your config or create a sitemap." : "找不到網站地圖。請檢查您的設定或創建網站地圖。",
     "Could not fetch sitemaps" : "無法擷取網站地圖",
     "Failed to load settings" : "載入設定失敗",
+    "Select a sitemap" : "選擇網站地圖",
+    "No sitemaps found. Check your config or create a sitemap." : "找不到網站地圖。請檢查您的設定或創建網站地圖。",
+    "Failed to save settings" : "設定儲存失敗",
     "Server settings" : "伺服器設定",
     "Custom" : "自訂",
     "Server URL" : "伺服器 URL",
@@ -17,7 +18,6 @@ OC.L10N.register(
     "Password" : "密碼",
     "Additional settings" : "其他設定",
     "Refresh interval" : "更新間距",
-    "seconds" : "秒",
-    "Failed to save settings" : "設定儲存失敗"
+    "seconds" : "秒"
 },
 "nplurals=1; plural=0;");
