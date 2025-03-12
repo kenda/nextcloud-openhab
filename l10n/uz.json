@@ -1,5 +1,6 @@
 { "translations": {
     "Username" : "Username",
-    "Password" : "Password"
+    "Password" : "Password",
+    "seconds" : "sekund"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
