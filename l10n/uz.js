@@ -1,8 +1,23 @@
 OC.L10N.register(
     "openhab",
     {
-    "Username" : "Username",
-    "Password" : "Password",
+    "Openhab Viewer" : "Openhab Ko'ruvchi",
+    "Openhab" : "Openhab",
+    "Renders sitemaps of an Openhab instance." : "Openhab instansiyasining sayt xaritalarini ko'rsatadi.",
+    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Ushbu ilova Openhab server misolining mavjud sayt xaritalarini taqdim etadi. Bu sizga Next cloud-da aqlli uyingizdagi qiymatlarni ko'rsatish imkonini beradi.",
+    "Could not fetch sitemaps" : "Sayt xaritasini olib bo'lmadi",
+    "Failed to load settings" : "Sozlamalarni yuklab bo'lmadi",
+    "Select a sitemap" : "Sayt xaritasini tanlang",
+    "No sitemaps found. Check your config or create a sitemap." : "Sayt xaritasi topilmadi. Konfiguratsiyani tekshiring yoki sayt xaritasini yarating.",
+    "Failed to save settings" : "Sozlamalarni saqlab bo'lmadi",
+    "Server settings" : "Server sozlamalari",
+    "Custom" : "Maxsus",
+    "Server URL" : "Server URL manzili",
+    "Ignore SSL issues?" : "SSL muammolarini e'tiborsiz qoldirasizmi?",
+    "Username" : "Foydalanuvchi nomi",
+    "Password" : "Parol",
+    "Additional settings" : "Parol",
+    "Refresh interval" : "Yangilash oralig'i",
     "seconds" : "sekund"
 },
 "nplurals=1; plural=0;");
