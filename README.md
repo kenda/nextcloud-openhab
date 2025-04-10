@@ -11,7 +11,6 @@ This app renders [sitemaps](https://www.openhab.org/docs/configuration/sitemaps.
 - Text
 - Switch (read-only)
 - Chart
-  - Currently only supporting single items as source
 - Colorpicker (read-only)
 
 ## Not yet supported element types
