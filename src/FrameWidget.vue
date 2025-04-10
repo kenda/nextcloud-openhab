@@ -1,5 +1,5 @@
 <template>
-	<div class="frame" v-if="config.widgets && config.widgets.length">
+	<div v-if="config.widgets && config.widgets.length" class="frame">
 		<h2 v-if="config.label">
 			{{ config.label }}
 		</h2>
@@ -17,7 +17,7 @@ export default {
 			required: true,
 		},
 	},
-	beforeCreate: function() {
+	beforeCreate() {
 		this.$options.components.Widget = require('./Widget.vue').default
 	},
 }
@@ -34,6 +34,6 @@ export default {
 
 .frame h2 {
 	font-weight: 500;
-    margin-top: 0px;
+	margin-top: 0px;
 }
 </style>

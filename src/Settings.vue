@@ -6,58 +6,71 @@
 			<figure v-if="!loading && success" class="icon-checkmark success" />
 		</h2>
 
-		<h3>{{t('openhab', 'Server settings')}}</h3>
+		<h3>{{ t('openhab', 'Server settings') }}</h3>
 		<fieldset class="d-flex">
-			<label class="d-flex"><input type="radio" v-model="settings['server.type']" value="myopenhab" @change="onChange" />myopenhab.org</label>&nbsp;
-			<label class="d-flex"><input type="radio" v-model="settings['server.type']" value="custom" @change="onChange" />{{t('openhab', 'Custom')}}</label>
+			<label class="d-flex"><input v-model="settings['server.type']"
+				type="radio"
+				value="myopenhab"
+				@change="onChange"
+			>myopenhab.org</label>&nbsp;
+			<label class="d-flex"><input v-model="settings['server.type']"
+				type="radio"
+				value="custom"
+				@change="onChange"
+			>{{ t('openhab', 'Custom') }}</label>
 		</fieldset>
 
 		<fieldset v-if="settings['server.type'] === 'custom'">
-			<label class="d-flex">{{t('openhab', 'Server URL')}}:&nbsp;
+			<label class="d-flex">{{ t('openhab', 'Server URL') }}:&nbsp;
 				<input v-model="settings['server.url']"
 					type="text"
-					@blur="onChange">
+					@blur="onChange"
+				>
 			</label>
 		</fieldset>
 
 		<fieldset v-if="settings['server.type'] === 'custom'">
-			<label class="d-flex">{{t('openhab', 'Ignore SSL issues?')}}&nbsp;
+			<label class="d-flex">{{ t('openhab', 'Ignore SSL issues?') }}&nbsp;
 				<input v-model="settings['server.ignoreSSL']"
 					type="checkbox"
-					@change="onChange">
+					@change="onChange"
+				>
 			</label>
 		</fieldset>
 
 		<fieldset v-if="settings['server.type'] === 'myopenhab'">
-			<label class="d-flex">{{t('openhab', 'Username')}}:&nbsp;
+			<label class="d-flex">{{ t('openhab', 'Username') }}:&nbsp;
 				<input v-model="settings['server.username']"
 					type="text"
-					@blur="onChange">
+					@blur="onChange"
+				>
 			</label>
 		</fieldset>
 
 		<fieldset v-if="settings['server.type'] === 'myopenhab'">
-			<label class="d-flex">{{t('openhab', 'Password')}}:&nbsp;
+			<label class="d-flex">{{ t('openhab', 'Password') }}:&nbsp;
 				<input v-model="settings['server.password']"
 					type="password"
-					@blur="onChange">
+					@blur="onChange"
+				>
 			</label>
 		</fieldset>
 
-		<h3>{{t('openhab', 'Additional settings')}}</h3>
+		<h3>{{ t('openhab', 'Additional settings') }}</h3>
 		<fieldset>
-			<label class="d-flex">{{t('openhab', 'Refresh interval')}}:&nbsp;
+			<label class="d-flex">{{ t('openhab', 'Refresh interval') }}:&nbsp;
 				<input v-model="settings['server.interval']"
 					type="number"
-					@blur="onChange">
-				{{t('openhab', 'seconds')}}
+					@blur="onChange"
+				>
+				{{ t('openhab', 'seconds') }}
 			</label>
 		</fieldset>
 	</div>
 </template>
 
 <script>
-import axios from '@nextcloud/axios';
+import axios from '@nextcloud/axios'
 import { showError } from '@nextcloud/dialogs'
 import { generateUrl } from '@nextcloud/router'
 
@@ -72,7 +85,7 @@ const SETTINGS = [
 
 export default {
 	name: 'Settings',
-	data: function() {
+	data() {
 		return {
 			settings: SETTINGS.reduce((obj, key) => ({ ...obj, [key]: '' }), {}),
 			loading: false,
@@ -83,12 +96,12 @@ export default {
 	async created() {
 		try {
 			const response = await axios.get(generateUrl('/apps/openhab/settings'))
-			this.settings = response.data;
+			this.settings = response.data
 
 			// set initial value of server mode
 			if (!this.settings['server.type']) {
-				this.settings['server.type'] = 'custom';
-				this.setValue('server.type', 'custom');
+				this.settings['server.type'] = 'custom'
+				this.setValue('server.type', 'custom')
 			}
 		} catch (e) {
 			showError(this.t('openhab', 'Failed to load settings'))
@@ -110,7 +123,7 @@ export default {
 				await axios.put(generateUrl('/apps/openhab/settings'), {
 					settings: this.settings,
 				})
-				this.success = true;
+				this.success = true
 			} catch (e) {
 				showError(this.t('openhab', 'Failed to save settings'))
 				throw e

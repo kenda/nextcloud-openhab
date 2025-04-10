@@ -10,7 +10,7 @@ import { generateUrl } from '@nextcloud/router'
 import { Chart, Colors, CategoryScale, LineController, LineElement, PointElement, Legend, LinearScale, TimeScale, Title } from 'chart.js'
 import 'chartjs-adapter-date-fns'
 
-import ItemService from './ItemService'
+import ItemService from './ItemService.js'
 
 export default {
 	name: 'ChartWidget',
@@ -104,6 +104,6 @@ export default {
 
 <style>
 .chart-widget {
-  max-width: 300px;
+	max-width: 300px;
 }
 </style>

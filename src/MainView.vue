@@ -2,11 +2,11 @@
 	<NcContent app-name="openhab">
 		<NcAppNavigation>
 			<ul>
-				<NcAppNavigationItem
-					v-for="sitemap in sitemaps"
+				<NcAppNavigationItem v-for="sitemap in sitemaps"
 					:key="sitemap.name"
 					:name="sitemap.label"
-					@click="open(sitemap.name)" />
+					@click="open(sitemap.name)"
+				/>
 			</ul>
 		</NcAppNavigation>
 		<NcAppContent id="app-content">
@@ -15,10 +15,10 @@
 			</div>
 			<div v-else id="emptycontent">
 				<h2 v-if="sitemaps && sitemaps.length">
-					{{t('openhab', 'Select a sitemap')}}
+					{{ t('openhab', 'Select a sitemap') }}
 				</h2>
 				<h2 v-if="!sitemaps || !sitemaps.length">
-					{{t('openhab', 'No sitemaps found. Check your config or create a sitemap.')}}
+					{{ t('openhab', 'No sitemaps found. Check your config or create a sitemap.') }}
 				</h2>
 			</div>
 		</NcAppContent>
@@ -36,7 +36,7 @@ import {
 	NcContent,
 } from '@nextcloud/vue'
 
-import Widget from './Widget'
+import Widget from './Widget.vue'
 
 export default {
 	name: 'MainView',
@@ -47,7 +47,7 @@ export default {
 		NcContent,
 		Widget,
 	},
-	data: function() {
+	data() {
 		return {
 			currentSitemap: null,
 			request: null,
@@ -71,7 +71,7 @@ export default {
 	async created() {
 		try {
 			const response = await axios.get(generateUrl('/apps/openhab/settings'))
-			this.settings = response.data;
+			this.settings = response.data
 		} catch (e) {
 			showError(t('openhab', 'Failed to load settings'))
 			throw e
@@ -88,15 +88,15 @@ export default {
 		},
 		load(sitemap) {
 			if (this.request) {
-				clearInterval(this.request);
+				clearInterval(this.request)
 			}
-			const fetchData = async() => {
+			const fetchData = async () => {
 				const response = await axios.get(generateUrl('/apps/openhab/sitemaps/' + sitemap))
 				this.currentSitemap = response.data
 			}
 
-            const interval = this.settings['server.interval'] ? this.settings['server.interval'] * 1000 : 300000; // 5 minutes
-            this.request = setInterval(fetchData, interval)
+			const interval = this.settings['server.interval'] ? this.settings['server.interval'] * 1000 : 300000 // 5 minutes
+			this.request = setInterval(fetchData, interval)
 			fetchData()
 		},
 	},

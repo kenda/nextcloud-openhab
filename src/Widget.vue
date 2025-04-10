@@ -12,7 +12,8 @@
 			<div class="group-header" @click="expand = !expand">
 				<i v-if="config.linkedPage.widgets.length"
 					class="toggle-icon"
-					:class="{ 'icon-triangle-e': expand === false, 'icon-triangle-s': expand === true }" />
+					:class="{ 'icon-triangle-e': expand === false, 'icon-triangle-s': expand === true }"
+				/>
 				<TextWidget v-if="config.type === 'Text'" :config="config" />
 				<SwitchWidget v-else-if="config.type === 'Switch'" :config="config" />
 				<GroupWidget v-else-if="config.type === 'Group'" :config="config" />
@@ -26,12 +27,12 @@
 </template>
 
 <script>
-import ChartWidget from './ChartWidget'
-import ColorpickerWidget from './ColorpickerWidget'
-import FrameWidget from './FrameWidget'
-import GroupWidget from './GroupWidget'
-import SwitchWidget from './SwitchWidget'
-import TextWidget from './TextWidget'
+import ChartWidget from './ChartWidget.vue'
+import ColorpickerWidget from './ColorpickerWidget.vue'
+import FrameWidget from './FrameWidget.vue'
+import GroupWidget from './GroupWidget.vue'
+import SwitchWidget from './SwitchWidget.vue'
+import TextWidget from './TextWidget.vue'
 
 export default {
 	name: 'Widget',
@@ -49,7 +50,7 @@ export default {
 			required: true,
 		},
 	},
-	data: function() {
+	data() {
 		return {
 			expand: false,
 		}
@@ -59,35 +60,41 @@ export default {
 
 <style>
 .group-wrapper {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
+
 .group-header {
-  cursor: pointer;
-  display: flex;
+	cursor: pointer;
+	display: flex;
 }
+
 .entry-wrapper {
 	border-bottom: 1px solid #eee;
 	display: flex;
 	padding: 10px;
 }
+
 .entry {
 	display: flex;
 	flex: 1;
 	justify-content: space-between;
 }
+
 .entry .label {
 	display: flex;
 	align-items: center;
 }
+
 .entry .value {
 	display: flex;
 	align-items: center;
 	font-weight: bold;
 	margin-left: 30px;
 }
+
 .toggle-icon {
-  display: inline-block;
-  width: 12px;
+	display: inline-block;
+	width: 12px;
 }
 </style>

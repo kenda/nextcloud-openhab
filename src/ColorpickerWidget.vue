@@ -5,15 +5,16 @@
 			<input class="action-input__input"
 				type="color"
 				:value="color"
-				disabled="disabled">
+				disabled="disabled"
+			>
 			{{ state }}
 		</span>
 	</div>
 </template>
 
 <script>
-import ItemService from './ItemService'
-import {HSLToRGB, RGBToHex} from './utils/colors';
+import ItemService from './ItemService.js'
+import { HSLToRGB, RGBToHex } from './utils/colors.js'
 
 export default {
 	name: 'ColorpickerWidget',
@@ -24,7 +25,7 @@ export default {
 		},
 	},
 	computed: {
-		state: function() {
+		state() {
 			if (this.config.item) {
 				const hsl = this.config.item.state.split(',')
 				return +hsl[2] === 0 ? 'OFF' : 'ON'
@@ -32,13 +33,13 @@ export default {
 				return 'OFF'
 			}
 		},
-		color: function() {
+		color() {
 			return this.config.item ? RGBToHex(...HSLToRGB(...this.config.item.state.split(','))) : '#000000'
 		},
-		label: function() {
+		label() {
 			return ItemService.getLabel(this.config.label)
 		},
-		value: function() {
+		value() {
 			return ItemService.getValue(this.config.label, this.config.item ? this.config.item.state : '')
 		},
 	},

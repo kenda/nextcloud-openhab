@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import ItemService from './ItemService'
+import ItemService from './ItemService.js'
 
 export default {
 	name: 'TextWidget',
@@ -17,10 +17,10 @@ export default {
 		},
 	},
 	computed: {
-		label: function() {
+		label() {
 			return ItemService.getLabel(this.config.label)
 		},
-		value: function() {
+		value() {
 			return ItemService.getValue(this.config.label, this.config.item ? this.config.item.state : '')
 		},
 	},

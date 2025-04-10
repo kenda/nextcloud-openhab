@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Settings from './Settings'
+import Settings from './Settings.vue'
 
 Vue.prototype.t = t
 Vue.prototype.n = n

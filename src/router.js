@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import MainView from './MainView'
+import MainView from './MainView.vue'
 import { generateUrl } from '@nextcloud/router'
 
 Vue.use(Router)

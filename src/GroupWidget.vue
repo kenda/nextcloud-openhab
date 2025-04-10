@@ -6,23 +6,23 @@
 </template>
 
 <script>
-	import ItemService from './ItemService'
+import ItemService from './ItemService.js'
 
-	export default {
-		name: 'GroupWidget',
-		props: {
-			config: {
-				type: Object,
-				required: true,
-			},
+export default {
+	name: 'GroupWidget',
+	props: {
+		config: {
+			type: Object,
+			required: true,
 		},
-		computed: {
-			label: function() {
-				return ItemService.getLabel(this.config.label)
-			},
-			value: function() {
-				return ItemService.getValue(this.config.label, this.config.item ? this.config.item.state : '')
-			},
+	},
+	computed: {
+		label() {
+			return ItemService.getLabel(this.config.label)
 		},
-	}
+		value() {
+			return ItemService.getValue(this.config.label, this.config.item ? this.config.item.state : '')
+		},
+	},
+}
 </script>
