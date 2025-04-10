@@ -53,7 +53,16 @@ class PageController extends Controller {
 	/**
       * @NoAdminRequired
       *
-      * @param string $id
+      * @param string $item
+      */
+     public function getItem(string $item) {
+         return $this->apiService->sendRequest('/rest/items/' . $item, 'Get details for item "' . $item . '"');
+     }
+
+	/**
+      * @NoAdminRequired
+      *
+      * @param string $item
       */
      public function getItemPersistence(string $item) {
          return $this->apiService->sendRequest('/rest/persistence/items/' . $item, 'Get data for item "' . $item . '"');
