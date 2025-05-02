@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Failed to load settings" : "Neizdevās ielādēt iestatījumus",
     "Failed to save settings" : "Neizdevās saglabāt iestatījumus",
     "Server settings" : "Servera iestatījumi",
     "Custom" : "Pielāgots",
