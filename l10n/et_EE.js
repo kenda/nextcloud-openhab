@@ -5,6 +5,7 @@ OC.L10N.register(
     "Failed to save settings" : "Seadistuste salvestamine ei õnnestunud",
     "Server settings" : "Serveri seaded",
     "Custom" : "Kohandatud",
+    "Server URL" : "Serveri võrguaadress",
     "Username" : "Kasutajanimi",
     "Password" : "Parool",
     "Additional settings" : "Lisaseaded",
