@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Failed to save settings" : "Failed to save settings",
     "Custom" : "Mteja",
     "Password" : "Nenosiri",
     "Additional settings" : "Mipangilio ya nyongeza",
