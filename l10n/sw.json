@@ -1,8 +1,21 @@
 { "translations": {
-    "Failed to save settings" : "Failed to save settings",
+    "Openhab Viewer" : "Mtazamaji wa Openhab",
+    "Openhab" : "Openhab",
+    "Renders sitemaps of an Openhab instance." : "Inatoa ramani za tovuti za mfano wa Openhab.",
+    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Programu hii hutoa ramani za tovuti zinazopatikana za mfano wa seva ya Openhab. Hii hukuruhusu kuonyesha thamani kutoka kwa nyumba yako mahiri katika Nextcloud.",
+    "Could not fetch sitemaps" : "Haikuweza kuleta ramani za tovuti",
+    "Failed to load settings" : "Imeshindwa kupakia mipangilio",
+    "Select a sitemap" : "Chagua ramani ya tovuti",
+    "No sitemaps found. Check your config or create a sitemap." : "Hakuna ramani za tovuti zilizopatikana. Angalia usanidi wako au unda ramani ya tovuti.",
+    "Failed to save settings" : "Imeshindwa kuhifadhi mipangilio",
+    "Server settings" : "Mipangilio ya seva",
     "Custom" : "Mteja",
+    "Server URL" : "URL ya seva",
+    "Ignore SSL issues?" : "Kupuuza masuala ya SSL?",
+    "Username" : "Username",
     "Password" : "Nenosiri",
     "Additional settings" : "Mipangilio ya nyongeza",
+    "Refresh interval" : "Kipindi cha kuonyesha upya",
     "seconds" : "sekunde"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
