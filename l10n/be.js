@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Failed to save settings" : "Не ўдалося захаваць налады",
     "Username" : "Імя карыстальніка",
     "Password" : "Пароль",
     "Additional settings" : "Дадатковыя налады"
