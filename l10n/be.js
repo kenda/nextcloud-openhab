@@ -2,6 +2,7 @@ OC.L10N.register(
     "openhab",
     {
     "Failed to save settings" : "Не ўдалося захаваць налады",
+    "Custom" : "Скарыстаць",
     "Server URL" : "URL-адрас сервера",
     "Ignore SSL issues?" : "Ігнараваць праблемы з SSL?",
     "Username" : "Імя карыстальніка",
