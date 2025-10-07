@@ -1,14 +1,23 @@
 OC.L10N.register(
     "openhab",
     {
+    "Openhab Viewer" : "Προβολέας Openhab",
+    "Openhab" : "Openhab",
+    "Renders sitemaps of an Openhab instance." : "Αποδίδει τα χάρτες ιστοτόπων μιας εγκατάστασης Openhab.",
+    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Αυτή η εφαρμογή αποδίδει τους διαθέσιμους χάρτες ιστοτόπων μιας εγκατάστασης διακομιστή Openhab. Αυτό σας επιτρέπει να εμφανίζετε τιμές από το έξυπνο σπίτι σας στο Nextcloud.",
+    "Could not fetch sitemaps" : "Δεν ήταν δυνατή η λήψη των χαρτών ιστοτόπων",
     "Failed to load settings" : "Αποτυχία φόρτωσης ρυθμίσεων",
+    "Select a sitemap" : "Επιλέξτε έναν χάρτη ιστοτόπου",
+    "No sitemaps found. Check your config or create a sitemap." : "Δεν βρέθηκαν χάρτες ιστοτόπων. Ελέγξτε τη διαμόρφωσή σας ή δημιουργήστε έναν χάρτη ιστοτόπου.",
     "Failed to save settings" : "Αποτυχία αποθήκευσης ρυθμίσεων",
     "Server settings" : "Ρυθμίσεις διακομιστή",
     "Custom" : "Προσαρμοσμένο",
     "Server URL" : "URL διακομιστή",
+    "Ignore SSL issues?" : "Να αγνοηθούν τα προβλήματα SSL;",
     "Username" : "Όνομα χρήστη",
     "Password" : "Συνθηματικό",
     "Additional settings" : "Επιπρόσθετες ρυθμίσεις",
+    "Refresh interval" : "Διάστημα ανανέωσης",
     "seconds" : "δευτερόλεπτα"
 },
 "nplurals=2; plural=(n != 1);");
