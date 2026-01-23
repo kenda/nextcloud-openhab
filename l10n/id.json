@@ -1,4 +1,5 @@
 { "translations": {
+    "Failed to load settings" : "Gagal memuat pengaturan",
     "Failed to save settings" : "Gagal simpan setelan",
     "Custom" : "Ubahan",
     "Server URL" : "URL Server",

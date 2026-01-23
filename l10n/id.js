@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Failed to load settings" : "Gagal memuat pengaturan",
     "Failed to save settings" : "Gagal simpan setelan",
     "Custom" : "Ubahan",
     "Server URL" : "URL Server",
