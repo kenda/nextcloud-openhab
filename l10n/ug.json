@@ -1,5 +1,5 @@
 { "translations": {
-    "Openhab Viewer" : "Openhab Viewer",
+    "Openhab Viewer" : "Openhab ئوقۇغۇچ",
     "Openhab" : "Openhab",
     "Renders sitemaps of an Openhab instance." : "Openhab مىسالىنىڭ تور خەرىتىسىنى كۆرسىتىدۇ.",
     "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "بۇ ئەپ Openhab مۇلازىمېتىر ئۈلگىسىنىڭ ئىشلەتكىلى بولىدىغان تور بەت خەرىتىسىنى كۆرسىتىدۇ. بۇ ئارقىلىق Nextcloud دىكى ئەقلىي ئىقتىدارلىق ئۆيىڭىزدىن قىممەت كۆرسىتەلەيسىز.",
