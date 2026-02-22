@@ -1,7 +1,9 @@
 { "translations": {
+    "Failed to save settings" : "Тохиргоог хадгалж чадсангүй",
     "Custom" : "Дурын",
     "Username" : "Хэрэглэгчийн нэр",
     "Password" : "Нууц үг",
+    "Additional settings" : "Нэмэлт тохиргоо",
     "seconds" : "секунд"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
