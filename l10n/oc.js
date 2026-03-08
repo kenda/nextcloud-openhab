@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Failed to save settings" : "Fracàs de l’enregistrament dels paramètres",
     "Server settings" : "Paramètres del servidor",
     "Custom" : "Personalizar",
     "Username" : "Nom d'utilizaire",
