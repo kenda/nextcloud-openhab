@@ -6,7 +6,7 @@ OC.L10N.register(
     "Server settings" : "Serverio nustatymai",
     "Custom" : "Tinkinti",
     "Server URL" : "Serverio URL",
-    "Username" : "Naudotojo vardas",
+    "Username" : "Vartotojo vardas",
     "Password" : "Slaptažodis",
     "Additional settings" : "Papildomi nustatymai",
     "seconds" : "sekundė"
