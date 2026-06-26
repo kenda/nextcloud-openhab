@@ -1,12 +1,21 @@
 { "translations": {
+    "Openhab Viewer" : "„Openhab“ peržiūros programa",
+    "Openhab" : "„Openhab“",
+    "Renders sitemaps of an Openhab instance." : "Sukuria „Openhab“ egzemplioriaus svetainių žemėlapius.",
+    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Ši programėlė pateikia galimus „Openhab“ serverio egzemplioriaus svetainių žemėlapius. Tai leidžia jums rodyti savo išmaniųjų namų duomenis „Nextcloud“ aplinkoje.",
+    "Could not fetch sitemaps" : "Nepavyko atsisiųsti svetainių žemėlapių",
     "Failed to load settings" : "Nepavyko įkelti nustatymų",
+    "Select a sitemap" : "Pasirinkite svetainės žemėlapį",
+    "No sitemaps found. Check your config or create a sitemap." : "Svetainės žemėlapių nerasta. Patikrinkite konfigūraciją arba sukurkite svetainės žemėlapį.",
     "Failed to save settings" : "Nepavyko įrašyti nustatymų",
     "Server settings" : "Serverio nustatymai",
     "Custom" : "Tinkinti",
     "Server URL" : "Serverio URL",
+    "Ignore SSL issues?" : "Ignoruoti SSL problemas?",
     "Username" : "Vartotojo vardas",
     "Password" : "Slaptažodis",
     "Additional settings" : "Papildomi nustatymai",
+    "Refresh interval" : "Atnaujinimo intervalas",
     "seconds" : "sekundė"
 },"pluralForm" :"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);"
 }
