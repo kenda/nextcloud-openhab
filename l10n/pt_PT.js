@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Could not fetch sitemaps" : "Não foi possível buscar sitemaps",
     "Failed to save settings" : "Erro ao gravar as definições",
     "Custom" : "Personalizado",
     "Username" : "Nome de utilizador",
