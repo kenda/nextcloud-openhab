@@ -6,6 +6,7 @@
     "Failed to load settings" : "Falha ao carregar configurações",
     "Select a sitemap" : "Selecione um sitemap",
     "Failed to save settings" : "Erro ao gravar as definições",
+    "Server settings" : "Configurações do servidor",
     "Custom" : "Personalizado",
     "Server URL" : "URL do servidor",
     "Ignore SSL issues?" : "Ignorar problemas de SSL?",
