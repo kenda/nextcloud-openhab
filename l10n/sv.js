@@ -1,14 +1,14 @@
 OC.L10N.register(
     "openhab",
     {
-    "Failed to load settings" : "Kunde inte läsa in inställningar",
-    "Failed to save settings" : "Kunde inte spara inställningarna",
+    "Failed to load settings" : "Det gick inte att läsa in inställningarna",
+    "Failed to save settings" : "Det gick inte att spara inställningarna",
     "Server settings" : "Serverinställningar",
     "Custom" : "Anpassad",
-    "Server URL" : "Serverwebbadress",
+    "Server URL" : "Server-URL",
     "Username" : "Användarnamn",
     "Password" : "Lösenord",
-    "Additional settings" : "Övriga inställningar",
+    "Additional settings" : "Ytterligare inställningar",
     "seconds" : "sekunder"
 },
 "nplurals=2; plural=(n != 1);");
