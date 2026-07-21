@@ -1,12 +1,21 @@
 { "translations": {
+    "Openhab Viewer" : "Openhab-visare",
+    "Openhab" : "Openhab",
+    "Renders sitemaps of an Openhab instance." : "Visar webbplatskartor från en Openhab-instans.",
+    "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Den här appen visar de tillgängliga webbplatskartorna från en Openhab-serverinstans. Det gör att du kan visa värden från ditt smarta hem i Nextcloud.",
+    "Could not fetch sitemaps" : "Kunde inte hämta webbplatskartor",
     "Failed to load settings" : "Det gick inte att läsa in inställningarna",
+    "Select a sitemap" : "Välj en webbplatskarta",
+    "No sitemaps found. Check your config or create a sitemap." : "Inga webbplatskartor hittades. Kontrollera konfigurationen eller skapa en webbplatskarta.",
     "Failed to save settings" : "Det gick inte att spara inställningarna",
     "Server settings" : "Serverinställningar",
     "Custom" : "Anpassad",
     "Server URL" : "Server-URL",
+    "Ignore SSL issues?" : "Ignorera SSL-problem?",
     "Username" : "Användarnamn",
     "Password" : "Lösenord",
     "Additional settings" : "Ytterligare inställningar",
+    "Refresh interval" : "Uppdateringsintervall",
     "seconds" : "sekunder"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
