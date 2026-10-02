@@ -3,7 +3,7 @@ OC.L10N.register(
     {
     "Openhab Viewer" : "Prehliadač Openhab",
     "Openhab" : "Openhab",
-    "Renders sitemaps of an Openhab instance." : "Vykreslí mapy stránok inštancie Openhab.",
+    "Renders sitemaps of an Openhab instance." : "Vykresľuje sitemap inštancie OpenHAB.",
     "This app renders the available sitemaps of an Openhab server instance. This allows you to display values from your smart home in Nextcloud." : "Táto aplikácia vykresľuje dostupné mapy stránok inštancie servera Openhab. To vám umožní zobraziť hodnoty z vášho inteligentného domu v Nextcloud.",
     "Could not fetch sitemaps" : "Nepodarilo sa získať mapy stránok",
     "Failed to load settings" : "Nepodarilo sa načítať nastavenia",
