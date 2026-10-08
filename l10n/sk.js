@@ -14,7 +14,7 @@ OC.L10N.register(
     "Custom" : "Vlastný",
     "Server URL" : "URL servera",
     "Ignore SSL issues?" : "Ignorovať chyby SSL?",
-    "Username" : "Užívateľské meno",
+    "Username" : "Používateľské meno",
     "Password" : "Heslo",
     "Additional settings" : "Ďalšie nastavenia",
     "Refresh interval" : "Interval obnovenia",
