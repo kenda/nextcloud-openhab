@@ -1,6 +1,8 @@
 OC.L10N.register(
     "openhab",
     {
+    "Failed to load settings" : "Setările nu au putut fi încărcate",
+    "Failed to save settings" : "Setările nu au putut fi salvate",
     "Custom" : "Particularizat",
     "Server URL" : "URL Server",
     "Username" : "Nume utilizator",
