@@ -1,6 +1,7 @@
 OC.L10N.register(
     "openhab",
     {
+    "Failed to load settings" : "Тохиргоог ачаалж чадсангүй",
     "Failed to save settings" : "Тохиргоог хадгалж чадсангүй",
     "Custom" : "Дурын",
     "Username" : "Хэрэглэгчийн нэр",
